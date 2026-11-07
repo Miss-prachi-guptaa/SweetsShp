@@ -9,14 +9,14 @@ import { HERO_BANNERS_DATA } from "@/data/heroBanners";
 import { useCart } from "@/lib/CartContext";
 
 const categories = [
-  { name: "Traditional Sweets", subtext: "Gulab Jamun, Rasgulla, Jalebi", emoji: "🪔" },
-  { name: "Barfi & Kaju", subtext: "Kaju Katli, Milk Cake, Kalakand", emoji: "◇" },
-  { name: "Laddoo & Dry Sweets", subtext: "Motichoor, Besan, Soan Papdi", emoji: "🟠" },
-  { name: "Bengali Sweets", subtext: "Rasmalai, Cham Cham, Sandesh", emoji: "🥣" },
-  { name: "Snacks & Chaat", subtext: "Samosa, Kachori, Chana Chaat", emoji: "🥟" },
-  { name: "Gift Boxes", subtext: "Festivals, Weddings & Pooja", emoji: "🎁" },
-  { name: "Namkeen", subtext: "Mixture, Bhujia & Mathri", emoji: "🥨" },
-  { name: "Beverages", subtext: "Cold Drinks, Lassi & Water", emoji: "🥤" },
+  { name: "Traditional Sweets", subtext: "Gulab Jamun, Rasgulla, Jalebi", image: "/vindhyavaisini/products/gulab-jamun.png" },
+  { name: "Barfi & Kaju", subtext: "Kaju Katli, Milk Cake, Kalakand", image: "/vindhyavaisini/products/kaju-katli.png" },
+  { name: "Laddoo & Dry Sweets", subtext: "Motichoor, Besan, Soan Papdi", image: "/vindhyavaisini/products/motichoor-laddoo.png" },
+  { name: "Bengali Sweets", subtext: "Rasmalai, Cham Cham, Rajbhog", image: "/vindhyavaisini/products/rasmalai.png" },
+  { name: "Snacks & Chaat", subtext: "Samosa, Kachori, Chana Chaat", image: "/vindhyavaisini/products/samosa-chana-chaat.png" },
+  { name: "Gift Boxes", subtext: "Festivals, Weddings & Pooja", image: "/vindhyavaisini/products/classic-mithai-gift-box.png" },
+  { name: "Namkeen", subtext: "Mixture, Bhujia & Mathri", image: "/vindhyavaisini/products/special-namkeen-mixture.png" },
+  { name: "Beverages", subtext: "Cold Drinks, Lassi & Water", image: "/vindhyavaisini/products/sweet-lassi.png" },
 ];
 
 export default function HomePage() {
@@ -55,10 +55,13 @@ export default function HomePage() {
           <div className="flex items-end justify-between"><div><p className="text-xs font-bold uppercase tracking-[.25em] text-[#e6b63b]">Explore our menu</p><h2 className="mt-1 text-2xl font-black sm:text-3xl">Aaj kya khayenge?</h2></div><Link href="/products" className="text-sm font-bold text-[#f1bf3a]">See all →</Link></div>
           <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
             {categories.map((cat) => (
-              <Link key={cat.name} href={`/products?category=${encodeURIComponent(cat.name)}`} className="group relative min-h-44 overflow-hidden rounded-2xl border border-[#6e191d] bg-gradient-to-br from-[#3a0a0c] to-[#190405] p-5 transition hover:-translate-y-1 hover:border-[#f1bf3a]">
-                <div className="absolute -bottom-8 -right-5 text-[92px] opacity-15 transition group-hover:scale-110">{cat.emoji}</div>
-                <span className="grid h-12 w-12 place-items-center rounded-full border border-[#f1bf3a]/30 bg-[#f1bf3a]/10 text-2xl">{cat.emoji}</span>
-                <h3 className="mt-5 text-base font-black text-[#fff2c8]">{cat.name}</h3><p className="mt-1 text-xs leading-5 text-[#c9a7a8]">{cat.subtext}</p>
+              <Link key={cat.name} href={`/products?category=${encodeURIComponent(cat.name)}`} className="group relative min-h-52 overflow-hidden rounded-2xl border border-[#6e191d] bg-[#190405] transition hover:-translate-y-1 hover:border-[#f1bf3a] hover:shadow-[0_16px_40px_rgba(0,0,0,0.35)]">
+                <BlurImage src={cat.image} alt={`${cat.name} category`} fill sizes="(max-width: 767px) 50vw, 25vw" className="object-cover transition duration-500 group-hover:scale-105" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#170304] via-[#260708]/35 to-black/5" />
+                <div className="absolute inset-x-0 bottom-0 p-5">
+                  <h3 className="text-base font-black text-[#fff2c8] drop-shadow-md">{cat.name}</h3>
+                  <p className="mt-1 text-xs leading-5 text-[#f2d5d6] drop-shadow-md">{cat.subtext}</p>
+                </div>
               </Link>
             ))}
           </div>
