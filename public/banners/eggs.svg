@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="520" viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="warmGlow" cx="65%" cy="55%" r="65%">
+      <stop offset="0%" stop-color="#3a2612" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#1a140f" stop-opacity="0.98"/>
+      <stop offset="100%" stop-color="#07090e" stop-opacity="1"/>
+    </radialGradient>
+    <linearGradient id="eggShell1" x1="0.2" y1="0.1" x2="0.8" y2="0.9">
+      <stop offset="0%" stop-color="#f9ecd5"/>
+      <stop offset="40%" stop-color="#e6b885"/>
+      <stop offset="85%" stop-color="#ab6932"/>
+      <stop offset="100%" stop-color="#5e320f"/>
+    </linearGradient>
+    <linearGradient id="eggShell2" x1="0.2" y1="0.1" x2="0.8" y2="0.9">
+      <stop offset="0%" stop-color="#fff7ea"/>
+      <stop offset="35%" stop-color="#edd3b0"/>
+      <stop offset="85%" stop-color="#b88049"/>
+      <stop offset="100%" stop-color="#693b16"/>
+    </linearGradient>
+    <radialGradient id="eggYolk" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#fff176"/>
+      <stop offset="40%" stop-color="#ffb300"/>
+      <stop offset="80%" stop-color="#f57c00"/>
+      <stop offset="100%" stop-color="#d84315"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="900" height="520" fill="url(#warmGlow)"/>
+
+  <!-- Nest Straw Lines -->
+  <g stroke="#6b4823" stroke-width="4" opacity="0.3">
+    <line x1="350" y1="420" x2="850" y2="430"/>
+    <line x1="330" y1="450" x2="870" y2="445"/>
+    <line x1="380" y1="480" x2="820" y2="470"/>
+    <line x1="400" y1="390" x2="750" y2="410"/>
+  </g>
+
+  <!-- Shadows -->
+  <ellipse cx="520" cy="390" rx="110" ry="35" fill="#000000" opacity="0.7"/>
+  <ellipse cx="690" cy="390" rx="110" ry="35" fill="#000000" opacity="0.7"/>
+  <ellipse cx="600" cy="320" rx="100" ry="30" fill="#000000" opacity="0.6"/>
+
+  <!-- Egg 1 (Brown farm egg left) -->
+  <ellipse cx="520" cy="350" rx="75" ry="105" transform="rotate(-20 520 350)" fill="url(#eggShell1)"/>
+
+  <!-- Egg 2 (White farm egg top) -->
+  <ellipse cx="600" cy="270" rx="70" ry="98" transform="rotate(15 600 270)" fill="#f0f2f5"/>
+
+  <!-- Egg 3 (Golden brown egg right) -->
+  <ellipse cx="690" cy="350" rx="74" ry="102" transform="rotate(25 690 350)" fill="url(#eggShell2)"/>
+
+  <!-- Broken Egg with Golden Yolk -->
+  <g transform="translate(560, 360)">
+    <ellipse cx="30" cy="50" rx="65" ry="32" fill="#000000" opacity="0.5"/>
+    <path d="M-30,45 Q0,25 40,35 Q85,45 80,60 Q60,75 10,70 Q-35,65 -30,45 Z" fill="#ffffff" opacity="0.5"/>
+    <circle cx="25" cy="52" r="26" fill="url(#eggYolk)"/>
+    <ellipse cx="18" cy="44" rx="7" ry="5" fill="#ffffff" opacity="0.75"/>
+  </g>
+</svg>
+

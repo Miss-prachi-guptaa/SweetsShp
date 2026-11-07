@@ -1,0 +1,125 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Category {
+  id          Int       @id @default(autoincrement())
+  name        String    @unique
+  slug        String    @unique
+  description String?
+  image       String?
+  products    Product[]
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  @@map("categories")
+}
+
+model Product {
+  id            Int         @id @default(autoincrement())
+  name          String
+  slug          String      @unique
+  description   String?
+  price         Decimal     @db.Decimal(10, 2)
+  originalPrice Decimal?    @db.Decimal(10, 2)
+  weight        String
+  cutType       String?
+  image         String
+  inStock       Boolean     @default(true)
+  tag           String?
+  rating        Decimal     @default(4.8) @db.Decimal(2, 1)
+  reviewsCount  Int         @default(120)
+  isFeatured    Boolean     @default(false)
+  categoryId    Int
+  category      Category    @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  orderItems    OrderItem[]
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+
+  @@index([categoryId])
+  @@index([slug])
+  @@map("products")
+}
+
+model Order {
+  id              Int         @id @default(autoincrement())
+  orderNumber     String      @unique
+  customerName    String
+  customerPhone   String
+  customerEmail   String?
+  deliveryAddress String
+  deliveryArea    String
+  deliverySlot    String
+  totalAmount     Decimal     @db.Decimal(10, 2)
+  status          String      @default("PENDING") // PENDING, CONFIRMED, OUT_FOR_DELIVERY, DELIVERED, CANCELLED
+  paymentMethod   String      @default("COD") // COD, UPI, CARD
+  paymentStatus   String      @default("PENDING") // PENDING, PAID
+  notes           String?
+  items           OrderItem[]
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+
+  @@map("orders")
+}
+
+model OrderItem {
+  id          Int      @id @default(autoincrement())
+  orderId     Int
+  order       Order    @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  productId   Int
+  product     Product  @relation(fields: [productId], references: [id])
+  productName String
+  quantity    Int
+  price       Decimal  @db.Decimal(10, 2)
+  total       Decimal  @db.Decimal(10, 2)
+  createdAt   DateTime @default(now())
+
+  @@map("order_items")
+}
+
+model Review {
+  id        Int      @id @default(autoincrement())
+  author    String
+  location  String
+  rating    Int      @default(5)
+  comment   String
+  verified  Boolean  @default(true)
+  createdAt DateTime @default(now())
+
+  @@map("reviews")
+}
+
+model ContactMessage {
+  id        Int      @id @default(autoincrement())
+  name      String
+  phone     String
+  email     String?
+  subject   String?
+  message   String
+  status    String   @default("UNREAD") // UNREAD, READ, REPLIED, RESOLVED
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("contact_messages")
+}
+
+model Asset {
+  id             Int      @id @default(autoincrement())
+  filename       String   @unique
+  originalName   String
+  path           String   // URL path e.g. /products/chicken.png or /uploads/...
+  size           Int      // Size in bytes
+  compressedSize Int?     // Size after compression
+  mimeType       String
+  category       String?  // e.g. products, categories, hero, brand, uploads
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  @@map("assets")
+}
+

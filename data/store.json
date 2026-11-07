@@ -1,0 +1,2425 @@
+{
+  "products": [
+    {
+      "id": 401,
+      "name": "Chicken Curry Cut",
+      "slug": "chicken-curry-cut",
+      "category": "Chicken",
+      "subcut": "Curry Cut",
+      "image": "/products/chicken-curry-cut-1kg.webp",
+      "tag": "Farm Fresh",
+      "rating": 4.8,
+      "cutType": "Curry Cut (Medium)",
+      "description": "Fresh tender chicken cut into perfect curry pieces (12-14 pcs/kg). Cleaned, skinless, ideal for homestyle chicken curry.",
+      "inStock": true,
+      "weight": "1 kg",
+      "price": 280,
+      "originalPrice": 320,
+      "variants": [
+        {
+          "weight": "500 g",
+          "price": 150,
+          "originalPrice": 170
+        },
+        {
+          "weight": "1 kg",
+          "price": 280,
+          "originalPrice": 320
+        }
+      ]
+    },
+    {
+      "id": 403,
+      "name": "Chicken Boneless",
+      "slug": "chicken-boneless",
+      "category": "Chicken",
+      "subcut": "Boneless",
+      "image": "/products/chicken-breast-real-1kg.webp",
+      "tag": "High Protein",
+      "rating": 4.9,
+      "cutType": "Boneless Breast Fillets",
+      "description": "100% tender, lean boneless chicken breast fillets. Cleaned, perfectly trimmed of fat. High in protein, great for grilling or butter chicken.",
+      "inStock": true,
+      "weight": "1 kg",
+      "price": 380,
+      "originalPrice": 420,
+      "variants": [
+        {
+          "weight": "500 g",
+          "price": 190,
+          "originalPrice": 210
+        },
+        {
+          "weight": "1 kg",
+          "price": 380,
+          "originalPrice": 420
+        }
+      ]
+    },
+    {
+      "id": 405,
+      "name": "Chicken Drumsticks",
+      "slug": "chicken-drumsticks",
+      "category": "Chicken",
+      "subcut": "Drumsticks",
+      "image": "/products/chicken-drumsticks-raw-1kg.webp",
+      "tag": "Chef Special",
+      "rating": 4.9,
+      "cutType": "Juicy Drumsticks (Tangdi)",
+      "description": "Juicy, succulent whole chicken drumsticks (tangdi). Cleaned and skinless. Ideal for tandoori, deep frying, or rich gravy.",
+      "inStock": true,
+      "weight": "1 kg",
+      "price": 460,
+      "originalPrice": 500,
+      "variants": [
+        {
+          "weight": "500 g",
+          "price": 230,
+          "originalPrice": 250
+        },
+        {
+          "weight": "1 kg",
+          "price": 460,
+          "originalPrice": 500
+        }
+      ]
+    },
+    {
+      "id": 407,
+      "name": "Chicken Keema",
+      "slug": "chicken-keema",
+      "category": "Chicken",
+      "subcut": "Keema",
+      "image": "/products/chicken-keema-real-raw-hd.webp",
+      "tag": "Freshly Ground",
+      "rating": 4.8,
+      "cutType": "Minced Chicken",
+      "description": "Freshly ground fresh chicken keema made from tender boneless breast meat. Smooth texture, perfect for chicken kebabs, keema paratha, or burgers.",
+      "inStock": true,
+      "weight": "1 kg",
+      "price": 380,
+      "originalPrice": 420,
+      "variants": [
+        {
+          "weight": "500 g",
+          "price": 190,
+          "originalPrice": 210
+        },
+        {
+          "weight": "1 kg",
+          "price": 380,
+          "originalPrice": 420
+        }
+      ]
+    },
+    {
+      "id": 409,
+      "name": "Chicken Liver and Gizzard",
+      "slug": "chicken-liver-and-gizzard",
+      "category": "Chicken",
+      "subcut": "Liver & Gizzard",
+      "image": "/products/chicken-liver-gizzard-raw-hd.webp",
+      "tag": "Iron Rich",
+      "rating": 4.7,
+      "cutType": "Cleaned Liver & Pot",
+      "description": "Nutrient-rich, fresh chicken liver (kaleji) and gizzard (pota). Cleaned, washed, and portioned fresh per order.",
+      "inStock": true,
+      "weight": "1 kg",
+      "price": 380,
+      "originalPrice": 420,
+      "variants": [
+        {
+          "weight": "500 g",
+          "price": 190,
+          "originalPrice": 210
+        },
+        {
+          "weight": "1 kg",
+          "price": 380,
+          "originalPrice": 420
+        }
+      ]
+    },
+    {
+      "id": 411,
+      "name": "Mutton Curry Cut",
+      "slug": "mutton-curry-cut",
+      "category": "Mutton",
+      "subcut": "Curry Cut",
+      "image": "/products/mutton-curry-cut-bonein-hd.webp",
+      "tag": "Tender Goat",
+      "rating": 4.9,
+      "cutType": "Bone-in Curry Cut",
+      "description": "Prime cuts of bone-in fresh goat meat (shoulder, rib, leg pieces). Cleaned and cut into even curry-sized chunks.",
+      "inStock": true,
+      "weight": "1 kg",
+      "price": 800,
+      "originalPrice": 880,
+      "variants": [
+        {
+          "weight": "500 g",
+          "price": 450,
+          "originalPrice": 490
+        },
+        {
+          "weight": "750 g",
+          "price": 630,
+          "originalPrice": 690
+        },
+        {
+          "weight": "1 kg",
+          "price": 800,
+          "originalPrice": 880
+        },
+        {
+          "weight": "1.25 kg",
+          "price": 980,
+          "originalPrice": 1080
+        },
+        {
+          "weight": "1.5 kg",
+          "price": 1180,
+          "originalPrice": 1300
+        },
+        {
+          "weight": "1.75 kg",
+          "price": 1380,
+          "originalPrice": 1500
+        },
+        {
+          "weight": "2 kg",
+          "price": 1550,
+          "originalPrice": 1700
+        }
+      ]
+    },
+    {
+      "id": 418,
+      "name": "Mutton Boneless",
+      "slug": "mutton-boneless",
+      "category": "Mutton",
+      "subcut": "Boneless",
+      "image": "/products/mutton-boneless-chunks-hd.webp",
+      "tag": "100% Meat",
+      "rating": 4.9,
+      "cutType": "Boneless Goat Cubes",
+      "description": "Clean boneless goat meat chunks with zero bone. Cut from the leg and shoulder. Perfect for kebabs, tikka, or rich stews.",
+      "inStock": true,
+      "weight": "1 kg",
+      "price": 900,
+      "originalPrice": 990,
+      "variants": [
+        {
+          "weight": "500 g",
+          "price": 430,
+          "originalPrice": 480
+        },
+        {
+          "weight": "750 g",
+          "price": 730,
+          "originalPrice": 800
+        },
+        {
+          "weight": "1 kg",
+          "price": 900,
+          "originalPrice": 990
+        }
+      ]
+    },
+    {
+      "id": 421,
+      "name": "Mutton Keema",
+      "slug": "mutton-keema",
+      "category": "Mutton",
+      "subcut": "Keema",
+      "image": "/products/mutton-keema-wooden-board.webp",
+      "tag": "Double Minced",
+      "rating": 4.8,
+      "cutType": "Finely Minced",
+      "description": "Freshly minced prime boneless goat meat. Smooth, fine texture, ideal for shami kebabs, keema matar, and samosas.",
+      "inStock": true,
+      "weight": "1 kg",
+      "price": 900,
+      "originalPrice": 1000,
+      "variants": [
+        {
+          "weight": "500 g",
+          "price": 450,
+          "originalPrice": 500
+        },
+        {
+          "weight": "750 g",
+          "price": 750,
+          "originalPrice": 820
+        },
+        {
+          "weight": "1 kg",
+          "price": 900,
+          "originalPrice": 1000
+        }
+      ]
+    },
+    {
+      "id": 424,
+      "name": "Mutton Kaleji (Liver)",
+      "slug": "mutton-kaleji",
+      "category": "Mutton",
+      "subcut": "Kaleji",
+      "image": "/products/mutton-kaleji-raw-hd.webp",
+      "tag": "Iron Rich",
+      "rating": 4.8,
+      "cutType": "Cleaned Goat Liver",
+      "description": "Fresh whole goat liver (kaleji) cleaned and portioned. Tender, rich in iron and nutrients, perfect for spicy kaleji masala.",
+      "inStock": true,
+      "weight": "1 kg",
+      "price": 800,
+      "originalPrice": 880,
+      "variants": [
+        {
+          "weight": "500 g",
+          "price": 450,
+          "originalPrice": 500
+        },
+        {
+          "weight": "750 g",
+          "price": 630,
+          "originalPrice": 700
+        },
+        {
+          "weight": "1 kg",
+          "price": 800,
+          "originalPrice": 880
+        }
+      ]
+    },
+    {
+      "id": 427,
+      "name": "Mutton Paya",
+      "slug": "mutton-paya",
+      "category": "Mutton",
+      "subcut": "Paya",
+      "image": "/products/mutton-paya-authentic-hd.webp",
+      "tag": "Soup Special",
+      "rating": 4.9,
+      "cutType": "Cleaned Trotters",
+      "description": "Freshly singed, cleaned, and descaled goat trotters (4 pieces). Packed with natural collagen and gelatin for rich, nourishing paya soup.",
+      "inStock": true,
+      "weight": "4 Paya",
+      "price": 250,
+      "originalPrice": 280,
+      "variants": [
+        {
+          "weight": "4 Paya",
+          "price": 250,
+          "originalPrice": 280
+        }
+      ]
+    },
+    {
+      "id": 431,
+      "name": "Rohu & Catla Curry Cut (With Head)",
+      "slug": "rohu-catla-curry-cut-with-head",
+      "category": "Fish & Seafood",
+      "subcut": "Curry Cut",
+      "image": "/products/rohu-with-head-hd.webp",
+      "tag": "Daily Catch",
+      "rating": 4.8,
+      "cutType": "Bengali Cut With Head",
+      "description": "Fresh sweetwater Rohu & Catla fish. Descaled, cleaned with head into authentic curry steaks (Bengali cut).",
+      "inStock": true,
+      "weight": "1 kg",
+      "price": 380,
+      "originalPrice": 420,
+      "variants": [
+        {
+          "weight": "Medium size (1 kg)",
+          "price": 380,
+          "originalPrice": 420
+        },
+        {
+          "weight": "Large size (1 kg)",
+          "price": 470,
+          "originalPrice": 520
+        }
+      ]
+    },
+    {
+      "id": 433,
+      "name": "Rohu & Catla Curry Cut (Without Head)",
+      "slug": "rohu-catla-curry-cut-without-head",
+      "category": "Fish & Seafood",
+      "subcut": "Curry Cut",
+      "image": "/products/fish-steaks-clean-hd.webp",
+      "tag": "Headless Cut",
+      "rating": 4.9,
+      "cutType": "Round Steaks (Headless)",
+      "description": "Pure flesh river fish steaks without head. Cleaned, gutted, descaled - 100% edible curry pieces.",
+      "inStock": true,
+      "weight": "1 kg",
+      "price": 680,
+      "originalPrice": 750,
+      "variants": [
+        {
+          "weight": "Medium / Large (1 kg)",
+          "price": 680,
+          "originalPrice": 750
+        }
+      ]
+    },
+    {
+      "id": 434,
+      "name": "Fish Boneless",
+      "slug": "fish-boneless",
+      "category": "Fish & Seafood",
+      "subcut": "Boneless Fish",
+      "image": "/products/fish-boneless-fillet-white-hd.webp",
+      "tag": "Zero Bone",
+      "rating": 4.9,
+      "cutType": "Boneless Fillets",
+      "description": "Fresh boneless and skinless fish fillets. Cleaned, portioned, ready to fry or steam. Great for fish fingers and pan searing.",
+      "inStock": true,
+      "weight": "1 kg",
+      "price": 650,
+      "originalPrice": 720,
+      "variants": [
+        {
+          "weight": "500 g",
+          "price": 375,
+          "originalPrice": 420
+        },
+        {
+          "weight": "1 kg",
+          "price": 650,
+          "originalPrice": 720
+        }
+      ]
+    },
+    {
+      "id": 436,
+      "name": "Prawns (Fresh Catch)",
+      "slug": "prawns-fresh-catch",
+      "category": "Fish & Seafood",
+      "subcut": "Prawns",
+      "image": "/products/prawns-premium-fresh-hd.webp",
+      "tag": "On Demand",
+      "rating": 4.9,
+      "cutType": "Cleaned & Deveined",
+      "description": "Fresh succulent coastal prawns. Cleaned, deveined, with tail intact. Available on demand according to fresh daily catch.",
+      "inStock": true,
+      "weight": "On Demand",
+      "price": 0,
+      "originalPrice": 0,
+      "variants": [
+        {
+          "weight": "On Demand",
+          "price": 0,
+          "originalPrice": 0
+        }
+      ]
+    },
+    {
+      "id": 501,
+      "name": "Potato (Aloo)",
+      "slug": "potato-aloo",
+      "category": "Vegetables & Kitchen Essentials",
+      "subcut": "Potato",
+      "image": "/products/potato.webp",
+      "tag": "On Demand",
+      "rating": 4.5,
+      "cutType": "Whole Fresh",
+      "description": "Farm-fresh, firm potatoes. Rates provided on demand based on daily market price.",
+      "inStock": true,
+      "weight": "1 kg",
+      "price": 0,
+      "originalPrice": 0,
+      "variants": [
+        {
+          "weight": "1 kg",
+          "price": 0,
+          "originalPrice": 0
+        }
+      ]
+    },
+    {
+      "id": 502,
+      "name": "Tomato (Tamatar)",
+      "slug": "tomato-tamatar",
+      "category": "Vegetables & Kitchen Essentials",
+      "subcut": "Tomato",
+      "image": "/products/tomato.webp",
+      "tag": "On Demand",
+      "rating": 4.7,
+      "cutType": "Ripe Country Tomatoes",
+      "description": "Fresh ripe country tomatoes, juicy and handpicked. Rates provided on demand.",
+      "inStock": true,
+      "weight": "500 g",
+      "price": 0,
+      "originalPrice": 0,
+      "variants": [
+        {
+          "weight": "500 g",
+          "price": 0,
+          "originalPrice": 0
+        },
+        {
+          "weight": "1 kg",
+          "price": 0,
+          "originalPrice": 0
+        }
+      ]
+    },
+    {
+      "id": 503,
+      "name": "Onion (Pyaaz)",
+      "slug": "onion-pyaaz",
+      "category": "Vegetables & Kitchen Essentials",
+      "subcut": "Onion",
+      "image": "/products/onion.webp",
+      "tag": "On Demand",
+      "rating": 4.6,
+      "cutType": "Fresh Red Onions",
+      "description": "Firm, dry red onions for rich curry gravies. Rates provided on demand based on daily mandi rates.",
+      "inStock": true,
+      "weight": "1 kg",
+      "price": 0,
+      "originalPrice": 0,
+      "variants": [
+        {
+          "weight": "1 kg",
+          "price": 0,
+          "originalPrice": 0
+        }
+      ]
+    },
+    {
+      "id": 504,
+      "name": "Green Chilli (Hari Mirch)",
+      "slug": "green-chilli-hari-mirch",
+      "category": "Vegetables & Kitchen Essentials",
+      "subcut": "Green Chilli",
+      "image": "/products/chilli-fresh-hd.webp",
+      "tag": "On Demand",
+      "rating": 4.5,
+      "cutType": "Fresh Hot Chillies",
+      "description": "Crisp, spicy green chillies. Rates provided on demand based on market.",
+      "inStock": true,
+      "weight": "250 g",
+      "price": 0,
+      "originalPrice": 0,
+      "variants": [
+        {
+          "weight": "250 g",
+          "price": 0,
+          "originalPrice": 0
+        }
+      ]
+    },
+    {
+      "id": 505,
+      "name": "Ginger (Adrak)",
+      "slug": "ginger-adrak",
+      "category": "Vegetables & Kitchen Essentials",
+      "subcut": "Ginger",
+      "image": "/products/ginger-fresh-hd.webp",
+      "tag": "On Demand",
+      "rating": 4.8,
+      "cutType": "Aromatic Ginger Root",
+      "description": "Fresh, aromatic washed ginger root. Rates provided on demand.",
+      "inStock": true,
+      "weight": "250 g",
+      "price": 0,
+      "originalPrice": 0,
+      "variants": [
+        {
+          "weight": "250 g",
+          "price": 0,
+          "originalPrice": 0
+        }
+      ]
+    },
+    {
+      "id": 506,
+      "name": "Garlic (Lehsun)",
+      "slug": "garlic-lehsun",
+      "category": "Vegetables & Kitchen Essentials",
+      "subcut": "Garlic",
+      "image": "/products/garlic-fresh-hd.webp",
+      "tag": "On Demand",
+      "rating": 4.8,
+      "cutType": "Whole Garlic Bulbs",
+      "description": "Flavourful whole garlic bulbs with large cloves. Rates provided on demand.",
+      "inStock": true,
+      "weight": "250 g",
+      "price": 0,
+      "originalPrice": 0,
+      "variants": [
+        {
+          "weight": "250 g",
+          "price": 0,
+          "originalPrice": 0
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Chicken",
+      "slug": "chicken",
+      "description": "Farm-fresh, tender cuts & curry cuts",
+      "image": "/categories/chicken-fresh.webp",
+      "subcuts": [
+        "Curry Cut",
+        "Boneless",
+        "Drumsticks",
+        "Keema",
+        "Liver & Gizzard"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Mutton",
+      "slug": "mutton",
+      "description": "Fresh pasture-raised goat meat, hand-cut",
+      "image": "/categories/mutton-fresh.webp",
+      "subcuts": [
+        "Curry Cut",
+        "Boneless",
+        "Keema",
+        "Kaleji",
+        "Paya"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Fish & Seafood",
+      "slug": "fish-seafood",
+      "description": "Daily fresh river catch & prawns on demand",
+      "image": "/categories/fresh-river-fish-v2.webp",
+      "subcuts": [
+        "Curry Cut",
+        "Boneless Fish",
+        "Prawns"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Vegetables & Kitchen Essentials",
+      "slug": "vegetables",
+      "description": "Fresh kitchen staples - rates on demand",
+      "image": "/categories/vegetables-fresh.webp",
+      "subcuts": [
+        "Potato",
+        "Tomato",
+        "Onion",
+        "Green Chilli",
+        "Ginger",
+        "Garlic"
+      ]
+    }
+  ],
+  "contacts": [],
+  "assets": [
+    {
+      "id": "ast-upload-1792241695521-986",
+      "filename": "screenshot-2026-10-17-182423-1792241695521.webp",
+      "originalName": "Screenshot 2026-10-17 182423.png",
+      "url": "/uploads/screenshot-2026-10-17-182423-1792241695521.webp",
+      "size": 39234,
+      "compressedSize": 24676,
+      "reductionPercent": 37,
+      "category": "products",
+      "createdAt": "2026-10-17T12:54:55.812Z"
+    },
+    {
+      "id": "ast-products-chicken_breast_png",
+      "filename": "chicken-breast.png",
+      "originalName": "chicken-breast.png",
+      "url": "/products/chicken-breast.png",
+      "size": 202173,
+      "category": "products",
+      "createdAt": "2026-10-17T07:00:33.662Z"
+    },
+    {
+      "id": "ast-products-chicken_curry_png",
+      "filename": "chicken-curry.png",
+      "originalName": "chicken-curry.png",
+      "url": "/products/chicken-curry.png",
+      "size": 310036,
+      "category": "products",
+      "createdAt": "2026-10-17T07:00:33.645Z"
+    },
+    {
+      "id": "ast-products-chicken_keema_png",
+      "filename": "chicken-keema.png",
+      "originalName": "chicken-keema.png",
+      "url": "/products/chicken-keema.png",
+      "size": 215334,
+      "category": "products",
+      "createdAt": "2026-10-17T07:00:33.638Z"
+    },
+    {
+      "id": "ast-products-chicken_liver_png",
+      "filename": "chicken-liver.png",
+      "originalName": "chicken-liver.png",
+      "url": "/products/chicken-liver.png",
+      "size": 117603,
+      "category": "products",
+      "createdAt": "2026-10-17T07:00:33.682Z"
+    },
+    {
+      "id": "ast-products-chicken_lollipop_jpeg",
+      "filename": "chicken-lollipop.jpeg",
+      "originalName": "chicken-lollipop.jpeg",
+      "url": "/products/chicken-lollipop.jpeg",
+      "size": 17607,
+      "category": "products",
+      "createdAt": "2026-10-17T07:00:33.616Z"
+    },
+    {
+      "id": "ast-products-desi_chicken_jpeg",
+      "filename": "desi-chicken.jpeg",
+      "originalName": "desi-chicken.jpeg",
+      "url": "/products/desi-chicken.jpeg",
+      "size": 28829,
+      "category": "products",
+      "createdAt": "2026-10-17T07:00:33.592Z"
+    },
+    {
+      "id": "ast-products-fish_fillet_png",
+      "filename": "fish-fillet.png",
+      "originalName": "fish-fillet.png",
+      "url": "/products/fish-fillet.png",
+      "size": 144333,
+      "category": "products",
+      "createdAt": "2026-10-17T07:00:33.785Z"
+    },
+    {
+      "id": "ast-products-mutton_curry_jpeg",
+      "filename": "mutton-curry.jpeg",
+      "originalName": "mutton-curry.jpeg",
+      "url": "/products/mutton-curry.jpeg",
+      "size": 76254,
+      "category": "products",
+      "createdAt": "2026-10-17T09:00:23.309Z"
+    },
+    {
+      "id": "ast-products-mutton_curry_png",
+      "filename": "mutton-curry.png",
+      "originalName": "mutton-curry.png",
+      "url": "/products/mutton-curry.png",
+      "size": 453449,
+      "category": "products",
+      "createdAt": "2026-10-17T09:00:23.316Z"
+    },
+    {
+      "id": "ast-products-mutton_liver_jpeg",
+      "filename": "mutton-liver.jpeg",
+      "originalName": "mutton-liver.jpeg",
+      "url": "/products/mutton-liver.jpeg",
+      "size": 28817,
+      "category": "products",
+      "createdAt": "2026-10-17T07:00:33.723Z"
+    },
+    {
+      "id": "ast-products-mutton_png",
+      "filename": "mutton.png",
+      "originalName": "mutton.png",
+      "url": "/products/mutton.png",
+      "size": 76254,
+      "category": "products",
+      "createdAt": "2026-10-17T07:00:33.704Z"
+    },
+    {
+      "id": "ast-products-papda_jpeg",
+      "filename": "papda.jpeg",
+      "originalName": "papda.jpeg",
+      "url": "/products/papda.jpeg",
+      "size": 24588,
+      "category": "products",
+      "createdAt": "2026-10-17T07:00:33.808Z"
+    },
+    {
+      "id": "ast-products-prawns_jpeg",
+      "filename": "prawns.jpeg",
+      "originalName": "prawns.jpeg",
+      "url": "/products/prawns.jpeg",
+      "size": 20946,
+      "category": "products",
+      "createdAt": "2026-10-17T07:00:33.814Z"
+    },
+    {
+      "id": "ast-products-tengra_jpeg",
+      "filename": "tengra.jpeg",
+      "originalName": "tengra.jpeg",
+      "url": "/products/tengra.jpeg",
+      "size": 29166,
+      "category": "products",
+      "createdAt": "2026-10-17T07:00:33.754Z"
+    },
+    {
+      "id": "ast-categories-chicken_png",
+      "filename": "chicken.png",
+      "originalName": "chicken.png",
+      "url": "/categories/chicken.png",
+      "size": 868741,
+      "category": "categories",
+      "createdAt": "2026-10-17T07:00:33.515Z"
+    },
+    {
+      "id": "ast-categories-mutton_png",
+      "filename": "mutton.png",
+      "originalName": "mutton.png",
+      "url": "/categories/mutton.png",
+      "size": 1002665,
+      "category": "categories",
+      "createdAt": "2026-10-17T07:00:33.541Z"
+    },
+    {
+      "id": "ast-categories-seafood_png",
+      "filename": "seafood.png",
+      "originalName": "seafood.png",
+      "url": "/categories/seafood.png",
+      "size": 123337,
+      "category": "categories",
+      "createdAt": "2026-10-17T07:00:33.570Z"
+    },
+    {
+      "id": "ast-hero-chicken_png",
+      "filename": "chicken.png",
+      "originalName": "chicken.png",
+      "url": "/hero/chicken.png",
+      "size": 310036,
+      "category": "hero",
+      "createdAt": "2026-10-17T07:00:33.479Z"
+    },
+    {
+      "id": "ast-hero-prawns_jpeg",
+      "filename": "prawns.jpeg",
+      "originalName": "prawns.jpeg",
+      "url": "/hero/prawns.jpeg",
+      "size": 20946,
+      "category": "hero",
+      "createdAt": "2026-10-17T07:00:33.495Z"
+    },
+    {
+      "id": "ast-brand-logo_png",
+      "filename": "logo.png",
+      "originalName": "logo.png",
+      "url": "/brand/logo.png",
+      "size": 94621,
+      "category": "brand",
+      "createdAt": "2026-10-17T07:00:33.461Z"
+    },
+    {
+      "id": "ast-products-chicken_breast_500g_webp",
+      "filename": "chicken-breast-500g.webp",
+      "originalName": "chicken-breast-500g.webp",
+      "url": "/products/chicken-breast-500g.webp",
+      "size": 57234,
+      "category": "products",
+      "createdAt": "2026-11-04T07:09:40.602Z"
+    },
+    {
+      "id": "ast-products-chicken_breast_hd_jpg",
+      "filename": "chicken-breast-hd.jpg",
+      "originalName": "chicken-breast-hd.jpg",
+      "url": "/products/chicken-breast-hd.jpg",
+      "size": 189532,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.657Z"
+    },
+    {
+      "id": "ast-products-chicken_breast_hd_webp",
+      "filename": "chicken-breast-hd.webp",
+      "originalName": "chicken-breast-hd.webp",
+      "url": "/products/chicken-breast-hd.webp",
+      "size": 58684,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.662Z"
+    },
+    {
+      "id": "ast-products-chicken_breast_real_1kg_webp",
+      "filename": "chicken-breast-real-1kg.webp",
+      "originalName": "chicken-breast-real-1kg.webp",
+      "url": "/products/chicken-breast-real-1kg.webp",
+      "size": 136370,
+      "category": "products",
+      "createdAt": "2026-11-04T07:25:41.998Z"
+    },
+    {
+      "id": "ast-products-chicken_breast_real_500g_webp",
+      "filename": "chicken-breast-real-500g.webp",
+      "originalName": "chicken-breast-real-500g.webp",
+      "url": "/products/chicken-breast-real-500g.webp",
+      "size": 64592,
+      "category": "products",
+      "createdAt": "2026-11-04T07:25:44.189Z"
+    },
+    {
+      "id": "ast-products-chicken_breast_webp",
+      "filename": "chicken-breast.webp",
+      "originalName": "chicken-breast.webp",
+      "url": "/products/chicken-breast.webp",
+      "size": 9896,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.668Z"
+    },
+    {
+      "id": "ast-products-chicken_curry_500g_webp",
+      "filename": "chicken-curry-500g.webp",
+      "originalName": "chicken-curry-500g.webp",
+      "url": "/products/chicken-curry-500g.webp",
+      "size": 58684,
+      "category": "products",
+      "createdAt": "2026-11-04T07:09:39.952Z"
+    },
+    {
+      "id": "ast-products-chicken_curry_cut_1kg_webp",
+      "filename": "chicken-curry-cut-1kg.webp",
+      "originalName": "chicken-curry-cut-1kg.webp",
+      "url": "/products/chicken-curry-cut-1kg.webp",
+      "size": 158814,
+      "category": "products",
+      "createdAt": "2026-11-04T07:25:37.348Z"
+    },
+    {
+      "id": "ast-products-chicken_curry_cut_500g_webp",
+      "filename": "chicken-curry-cut-500g.webp",
+      "originalName": "chicken-curry-cut-500g.webp",
+      "url": "/products/chicken-curry-cut-500g.webp",
+      "size": 142080,
+      "category": "products",
+      "createdAt": "2026-11-04T07:25:39.365Z"
+    },
+    {
+      "id": "ast-products-chicken_curry_hd_jpg",
+      "filename": "chicken-curry-hd.jpg",
+      "originalName": "chicken-curry-hd.jpg",
+      "url": "/products/chicken-curry-hd.jpg",
+      "size": 96047,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.668Z"
+    },
+    {
+      "id": "ast-products-chicken_curry_hd_webp",
+      "filename": "chicken-curry-hd.webp",
+      "originalName": "chicken-curry-hd.webp",
+      "url": "/products/chicken-curry-hd.webp",
+      "size": 57234,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.671Z"
+    },
+    {
+      "id": "ast-products-chicken_curry_webp",
+      "filename": "chicken-curry.webp",
+      "originalName": "chicken-curry.webp",
+      "url": "/products/chicken-curry.webp",
+      "size": 16738,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.671Z"
+    },
+    {
+      "id": "ast-products-chicken_desi_hd_jpg",
+      "filename": "chicken-desi-hd.jpg",
+      "originalName": "chicken-desi-hd.jpg",
+      "url": "/products/chicken-desi-hd.jpg",
+      "size": 93314,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.680Z"
+    },
+    {
+      "id": "ast-products-chicken_desi_hd_webp",
+      "filename": "chicken-desi-hd.webp",
+      "originalName": "chicken-desi-hd.webp",
+      "url": "/products/chicken-desi-hd.webp",
+      "size": 15672,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.682Z"
+    },
+    {
+      "id": "ast-products-chicken_drumsticks_hd_jpg",
+      "filename": "chicken-drumsticks-hd.jpg",
+      "originalName": "chicken-drumsticks-hd.jpg",
+      "url": "/products/chicken-drumsticks-hd.jpg",
+      "size": 266050,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.684Z"
+    },
+    {
+      "id": "ast-products-chicken_drumsticks_hd_webp",
+      "filename": "chicken-drumsticks-hd.webp",
+      "originalName": "chicken-drumsticks-hd.webp",
+      "url": "/products/chicken-drumsticks-hd.webp",
+      "size": 58208,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.684Z"
+    },
+    {
+      "id": "ast-products-chicken_drumsticks_raw_1kg_webp",
+      "filename": "chicken-drumsticks-raw-1kg.webp",
+      "originalName": "chicken-drumsticks-raw-1kg.webp",
+      "url": "/products/chicken-drumsticks-raw-1kg.webp",
+      "size": 170772,
+      "category": "products",
+      "createdAt": "2026-11-04T07:25:45.864Z"
+    },
+    {
+      "id": "ast-products-chicken_drumsticks_real_hd_webp",
+      "filename": "chicken-drumsticks-real-hd.webp",
+      "originalName": "chicken-drumsticks-real-hd.webp",
+      "url": "/products/chicken-drumsticks-real-hd.webp",
+      "size": 68590,
+      "category": "products",
+      "createdAt": "2026-11-04T07:10:05.551Z"
+    },
+    {
+      "id": "ast-products-chicken_keema_hd_jpg",
+      "filename": "chicken-keema-hd.jpg",
+      "originalName": "chicken-keema-hd.jpg",
+      "url": "/products/chicken-keema-hd.jpg",
+      "size": 137917,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.692Z"
+    },
+    {
+      "id": "ast-products-chicken_keema_hd_webp",
+      "filename": "chicken-keema-hd.webp",
+      "originalName": "chicken-keema-hd.webp",
+      "url": "/products/chicken-keema-hd.webp",
+      "size": 41840,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.692Z"
+    },
+    {
+      "id": "ast-products-chicken_keema_raw_1kg_webp",
+      "filename": "chicken-keema-raw-1kg.webp",
+      "originalName": "chicken-keema-raw-1kg.webp",
+      "url": "/products/chicken-keema-raw-1kg.webp",
+      "size": 110094,
+      "category": "products",
+      "createdAt": "2026-11-04T07:26:10.315Z"
+    },
+    {
+      "id": "ast-products-chicken_keema_real_raw_hd_webp",
+      "filename": "chicken-keema-real-raw-hd.webp",
+      "originalName": "chicken-keema-real-raw-hd.webp",
+      "url": "/products/chicken-keema-real-raw-hd.webp",
+      "size": 140280,
+      "category": "products",
+      "createdAt": "2026-11-04T12:12:28.819Z"
+    },
+    {
+      "id": "ast-products-chicken_keema_webp",
+      "filename": "chicken-keema.webp",
+      "originalName": "chicken-keema.webp",
+      "url": "/products/chicken-keema.webp",
+      "size": 13076,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.696Z"
+    },
+    {
+      "id": "ast-products-chicken_liver_gizzard_raw_hd_webp",
+      "filename": "chicken-liver-gizzard-raw-hd.webp",
+      "originalName": "chicken-liver-gizzard-raw-hd.webp",
+      "url": "/products/chicken-liver-gizzard-raw-hd.webp",
+      "size": 95698,
+      "category": "products",
+      "createdAt": "2026-11-04T07:24:18.705Z"
+    },
+    {
+      "id": "ast-products-chicken_liver_hd_jpg",
+      "filename": "chicken-liver-hd.jpg",
+      "originalName": "chicken-liver-hd.jpg",
+      "url": "/products/chicken-liver-hd.jpg",
+      "size": 43571,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.699Z"
+    },
+    {
+      "id": "ast-products-chicken_liver_hd_webp",
+      "filename": "chicken-liver-hd.webp",
+      "originalName": "chicken-liver-hd.webp",
+      "url": "/products/chicken-liver-hd.webp",
+      "size": 99038,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.702Z"
+    },
+    {
+      "id": "ast-products-chicken_liver_webp",
+      "filename": "chicken-liver.webp",
+      "originalName": "chicken-liver.webp",
+      "url": "/products/chicken-liver.webp",
+      "size": 14496,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.704Z"
+    },
+    {
+      "id": "ast-products-chicken_lollipop_hd_jpg",
+      "filename": "chicken-lollipop-hd.jpg",
+      "originalName": "chicken-lollipop-hd.jpg",
+      "url": "/products/chicken-lollipop-hd.jpg",
+      "size": 113118,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.708Z"
+    },
+    {
+      "id": "ast-products-chicken_lollipop_hd_webp",
+      "filename": "chicken-lollipop-hd.webp",
+      "originalName": "chicken-lollipop-hd.webp",
+      "url": "/products/chicken-lollipop-hd.webp",
+      "size": 52470,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.711Z"
+    },
+    {
+      "id": "ast-products-chicken_lollipop_webp",
+      "filename": "chicken-lollipop.webp",
+      "originalName": "chicken-lollipop.webp",
+      "url": "/products/chicken-lollipop.webp",
+      "size": 7612,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.714Z"
+    },
+    {
+      "id": "ast-products-chilli_fresh_hd_webp",
+      "filename": "chilli-fresh-hd.webp",
+      "originalName": "chilli-fresh-hd.webp",
+      "url": "/products/chilli-fresh-hd.webp",
+      "size": 45042,
+      "category": "products",
+      "createdAt": "2026-11-04T07:09:54.186Z"
+    },
+    {
+      "id": "ast-products-desi_chicken_webp",
+      "filename": "desi-chicken.webp",
+      "originalName": "desi-chicken.webp",
+      "url": "/products/desi-chicken.webp",
+      "size": 15252,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.717Z"
+    },
+    {
+      "id": "ast-products-fish_boneless_fillet_hd_webp",
+      "filename": "fish-boneless-fillet-hd.webp",
+      "originalName": "fish-boneless-fillet-hd.webp",
+      "url": "/products/fish-boneless-fillet-hd.webp",
+      "size": 134616,
+      "category": "products",
+      "createdAt": "2026-11-04T07:34:04.783Z"
+    },
+    {
+      "id": "ast-products-fish_boneless_fillet_white_hd_webp",
+      "filename": "fish-boneless-fillet-white-hd.webp",
+      "originalName": "fish-boneless-fillet-white-hd.webp",
+      "url": "/products/fish-boneless-fillet-white-hd.webp",
+      "size": 160588,
+      "category": "products",
+      "createdAt": "2026-11-04T07:49:24.159Z"
+    },
+    {
+      "id": "ast-products-fish_boneless_hd_jpg",
+      "filename": "fish-boneless-hd.jpg",
+      "originalName": "fish-boneless-hd.jpg",
+      "url": "/products/fish-boneless-hd.jpg",
+      "size": 29,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.717Z"
+    },
+    {
+      "id": "ast-products-fish_catla_hd_jpg",
+      "filename": "fish-catla-hd.jpg",
+      "originalName": "fish-catla-hd.jpg",
+      "url": "/products/fish-catla-hd.jpg",
+      "size": 21339,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.717Z"
+    },
+    {
+      "id": "ast-products-fish_catla_hd_webp",
+      "filename": "fish-catla-hd.webp",
+      "originalName": "fish-catla-hd.webp",
+      "url": "/products/fish-catla-hd.webp",
+      "size": 15262,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.721Z"
+    },
+    {
+      "id": "ast-products-fish_catla_webp",
+      "filename": "fish-catla.webp",
+      "originalName": "fish-catla.webp",
+      "url": "/products/fish-catla.webp",
+      "size": 26404,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.721Z"
+    },
+    {
+      "id": "ast-products-fish_fillet_webp",
+      "filename": "fish-fillet.webp",
+      "originalName": "fish-fillet.webp",
+      "url": "/products/fish-fillet.webp",
+      "size": 20124,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.728Z"
+    },
+    {
+      "id": "ast-products-fish_large_hd_webp",
+      "filename": "fish-large-hd.webp",
+      "originalName": "fish-large-hd.webp",
+      "url": "/products/fish-large-hd.webp",
+      "size": 10330,
+      "category": "products",
+      "createdAt": "2026-11-04T07:09:50.747Z"
+    },
+    {
+      "id": "ast-products-fish_rohu_hd_jpg",
+      "filename": "fish-rohu-hd.jpg",
+      "originalName": "fish-rohu-hd.jpg",
+      "url": "/products/fish-rohu-hd.jpg",
+      "size": 21339,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.728Z"
+    },
+    {
+      "id": "ast-products-fish_rohu_hd_webp",
+      "filename": "fish-rohu-hd.webp",
+      "originalName": "fish-rohu-hd.webp",
+      "url": "/products/fish-rohu-hd.webp",
+      "size": 15262,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.728Z"
+    },
+    {
+      "id": "ast-products-fish_rohu_webp",
+      "filename": "fish-rohu.webp",
+      "originalName": "fish-rohu.webp",
+      "url": "/products/fish-rohu.webp",
+      "size": 26404,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.728Z"
+    },
+    {
+      "id": "ast-products-fish_steaks_clean_hd_webp",
+      "filename": "fish-steaks-clean-hd.webp",
+      "originalName": "fish-steaks-clean-hd.webp",
+      "url": "/products/fish-steaks-clean-hd.webp",
+      "size": 169522,
+      "category": "products",
+      "createdAt": "2026-11-04T07:20:38.786Z"
+    },
+    {
+      "id": "ast-products-fish_steaks_hd_webp",
+      "filename": "fish-steaks-hd.webp",
+      "originalName": "fish-steaks-hd.webp",
+      "url": "/products/fish-steaks-hd.webp",
+      "size": 10330,
+      "category": "products",
+      "createdAt": "2026-11-04T07:09:50.444Z"
+    },
+    {
+      "id": "ast-products-fresh_goat_liver_real_jpg",
+      "filename": "fresh-goat-liver-real.jpg",
+      "originalName": "fresh-goat-liver-real.jpg",
+      "url": "/products/fresh-goat-liver-real.jpg",
+      "size": 62327,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.734Z"
+    },
+    {
+      "id": "ast-products-fresh_goat_liver_real_webp",
+      "filename": "fresh-goat-liver-real.webp",
+      "originalName": "fresh-goat-liver-real.webp",
+      "url": "/products/fresh-goat-liver-real.webp",
+      "size": 25310,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.734Z"
+    },
+    {
+      "id": "ast-products-fresh_river_rohu_real_webp",
+      "filename": "fresh-river-rohu-real.webp",
+      "originalName": "fresh-river-rohu-real.webp",
+      "url": "/products/fresh-river-rohu-real.webp",
+      "size": 26404,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.734Z"
+    },
+    {
+      "id": "ast-products-garlic_fresh_hd_webp",
+      "filename": "garlic-fresh-hd.webp",
+      "originalName": "garlic-fresh-hd.webp",
+      "url": "/products/garlic-fresh-hd.webp",
+      "size": 66538,
+      "category": "products",
+      "createdAt": "2026-11-04T07:09:52.432Z"
+    },
+    {
+      "id": "ast-products-garlic_jpg",
+      "filename": "garlic.jpg",
+      "originalName": "garlic.jpg",
+      "url": "/products/garlic.jpg",
+      "size": 32199,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.739Z"
+    },
+    {
+      "id": "ast-products-garlic_webp",
+      "filename": "garlic.webp",
+      "originalName": "garlic.webp",
+      "url": "/products/garlic.webp",
+      "size": 15550,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.739Z"
+    },
+    {
+      "id": "ast-products-ginger_fresh_hd_webp",
+      "filename": "ginger-fresh-hd.webp",
+      "originalName": "ginger-fresh-hd.webp",
+      "url": "/products/ginger-fresh-hd.webp",
+      "size": 100676,
+      "category": "products",
+      "createdAt": "2026-11-04T07:09:53.275Z"
+    },
+    {
+      "id": "ast-products-ginger_jpg",
+      "filename": "ginger.jpg",
+      "originalName": "ginger.jpg",
+      "url": "/products/ginger.jpg",
+      "size": 46256,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.742Z"
+    },
+    {
+      "id": "ast-products-ginger_webp",
+      "filename": "ginger.webp",
+      "originalName": "ginger.webp",
+      "url": "/products/ginger.webp",
+      "size": 28042,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.743Z"
+    },
+    {
+      "id": "ast-products-green_chilli_jpg",
+      "filename": "green-chilli.jpg",
+      "originalName": "green-chilli.jpg",
+      "url": "/products/green-chilli.jpg",
+      "size": 101907,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.745Z"
+    },
+    {
+      "id": "ast-products-green_chilli_webp",
+      "filename": "green-chilli.webp",
+      "originalName": "green-chilli.webp",
+      "url": "/products/green-chilli.webp",
+      "size": 51998,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.745Z"
+    },
+    {
+      "id": "ast-products-meat_keema_hd_webp",
+      "filename": "meat-keema-hd.webp",
+      "originalName": "meat-keema-hd.webp",
+      "url": "/products/meat-keema-hd.webp",
+      "size": 38198,
+      "category": "products",
+      "createdAt": "2026-11-04T07:09:42.717Z"
+    },
+    {
+      "id": "ast-products-mutton_boneless_chunks_hd_webp",
+      "filename": "mutton-boneless-chunks-hd.webp",
+      "originalName": "mutton-boneless-chunks-hd.webp",
+      "url": "/products/mutton-boneless-chunks-hd.webp",
+      "size": 188464,
+      "category": "products",
+      "createdAt": "2026-11-04T07:29:20.654Z"
+    },
+    {
+      "id": "ast-products-mutton_boneless_hd_jpg",
+      "filename": "mutton-boneless-hd.jpg",
+      "originalName": "mutton-boneless-hd.jpg",
+      "url": "/products/mutton-boneless-hd.jpg",
+      "size": 43571,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.745Z"
+    },
+    {
+      "id": "ast-products-mutton_boneless_hd_webp",
+      "filename": "mutton-boneless-hd.webp",
+      "originalName": "mutton-boneless-hd.webp",
+      "url": "/products/mutton-boneless-hd.webp",
+      "size": 9876,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.751Z"
+    },
+    {
+      "id": "ast-products-mutton_boneless_real_hd_webp",
+      "filename": "mutton-boneless-real-hd.webp",
+      "originalName": "mutton-boneless-real-hd.webp",
+      "url": "/products/mutton-boneless-real-hd.webp",
+      "size": 47388,
+      "category": "products",
+      "createdAt": "2026-11-04T07:09:47.602Z"
+    },
+    {
+      "id": "ast-products-mutton_boneless_real_jpg",
+      "filename": "mutton-boneless-real.jpg",
+      "originalName": "mutton-boneless-real.jpg",
+      "url": "/products/mutton-boneless-real.jpg",
+      "size": 73163,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.751Z"
+    },
+    {
+      "id": "ast-products-mutton_boneless_real_webp",
+      "filename": "mutton-boneless-real.webp",
+      "originalName": "mutton-boneless-real.webp",
+      "url": "/products/mutton-boneless-real.webp",
+      "size": 36944,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.751Z"
+    },
+    {
+      "id": "ast-products-mutton_chops_raw_hd_webp",
+      "filename": "mutton-chops-raw-hd.webp",
+      "originalName": "mutton-chops-raw-hd.webp",
+      "url": "/products/mutton-chops-raw-hd.webp",
+      "size": 159520,
+      "category": "products",
+      "createdAt": "2026-11-04T07:38:41.614Z"
+    },
+    {
+      "id": "ast-products-mutton_curry_alt_hd_webp",
+      "filename": "mutton-curry-alt-hd.webp",
+      "originalName": "mutton-curry-alt-hd.webp",
+      "url": "/products/mutton-curry-alt-hd.webp",
+      "size": 42580,
+      "category": "products",
+      "createdAt": "2026-11-04T07:09:46.754Z"
+    },
+    {
+      "id": "ast-products-mutton_curry_cut_bonein_hd_webp",
+      "filename": "mutton-curry-cut-bonein-hd.webp",
+      "originalName": "mutton-curry-cut-bonein-hd.webp",
+      "url": "/products/mutton-curry-cut-bonein-hd.webp",
+      "size": 159822,
+      "category": "products",
+      "createdAt": "2026-11-04T07:29:20.438Z"
+    },
+    {
+      "id": "ast-products-mutton_curry_hd_jpg",
+      "filename": "mutton-curry-hd.jpg",
+      "originalName": "mutton-curry-hd.jpg",
+      "url": "/products/mutton-curry-hd.jpg",
+      "size": 92559,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.758Z"
+    },
+    {
+      "id": "ast-products-mutton_curry_hd_webp",
+      "filename": "mutton-curry-hd.webp",
+      "originalName": "mutton-curry-hd.webp",
+      "url": "/products/mutton-curry-hd.webp",
+      "size": 41802,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.760Z"
+    },
+    {
+      "id": "ast-products-mutton_curry_real_hd_webp",
+      "filename": "mutton-curry-real-hd.webp",
+      "originalName": "mutton-curry-real-hd.webp",
+      "url": "/products/mutton-curry-real-hd.webp",
+      "size": 57400,
+      "category": "products",
+      "createdAt": "2026-11-04T07:09:45.903Z"
+    },
+    {
+      "id": "ast-products-mutton_curry_webp",
+      "filename": "mutton-curry.webp",
+      "originalName": "mutton-curry.webp",
+      "url": "/products/mutton-curry.webp",
+      "size": 31132,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.765Z"
+    },
+    {
+      "id": "ast-products-mutton_kaleji_hd_jpg",
+      "filename": "mutton-kaleji-hd.jpg",
+      "originalName": "mutton-kaleji-hd.jpg",
+      "url": "/products/mutton-kaleji-hd.jpg",
+      "size": 43571,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.765Z"
+    },
+    {
+      "id": "ast-products-mutton_kaleji_hd_webp",
+      "filename": "mutton-kaleji-hd.webp",
+      "originalName": "mutton-kaleji-hd.webp",
+      "url": "/products/mutton-kaleji-hd.webp",
+      "size": 9876,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.773Z"
+    },
+    {
+      "id": "ast-products-mutton_kaleji_raw_hd_webp",
+      "filename": "mutton-kaleji-raw-hd.webp",
+      "originalName": "mutton-kaleji-raw-hd.webp",
+      "url": "/products/mutton-kaleji-raw-hd.webp",
+      "size": 180446,
+      "category": "products",
+      "createdAt": "2026-11-04T07:29:20.904Z"
+    },
+    {
+      "id": "ast-products-mutton_kaleji_real_hd_webp",
+      "filename": "mutton-kaleji-real-hd.webp",
+      "originalName": "mutton-kaleji-real-hd.webp",
+      "url": "/products/mutton-kaleji-real-hd.webp",
+      "size": 37242,
+      "category": "products",
+      "createdAt": "2026-11-04T07:09:49.541Z"
+    },
+    {
+      "id": "ast-products-mutton_keema_alt_hd_webp",
+      "filename": "mutton-keema-alt-hd.webp",
+      "originalName": "mutton-keema-alt-hd.webp",
+      "url": "/products/mutton-keema-alt-hd.webp",
+      "size": 105350,
+      "category": "products",
+      "createdAt": "2026-11-04T07:18:04.119Z"
+    },
+    {
+      "id": "ast-products-mutton_keema_authentic_plate_hd_webp",
+      "filename": "mutton-keema-authentic-plate-hd.webp",
+      "originalName": "mutton-keema-authentic-plate-hd.webp",
+      "url": "/products/mutton-keema-authentic-plate-hd.webp",
+      "size": 129206,
+      "category": "products",
+      "createdAt": "2026-11-04T12:16:56.023Z"
+    },
+    {
+      "id": "ast-products-mutton_keema_fresh_hd_webp",
+      "filename": "mutton-keema-fresh-hd.webp",
+      "originalName": "mutton-keema-fresh-hd.webp",
+      "url": "/products/mutton-keema-fresh-hd.webp",
+      "size": 135750,
+      "category": "products",
+      "createdAt": "2026-11-04T07:18:02.533Z"
+    },
+    {
+      "id": "ast-products-mutton_keema_gourmet_raw_hd_webp",
+      "filename": "mutton-keema-gourmet-raw-hd.webp",
+      "originalName": "mutton-keema-gourmet-raw-hd.webp",
+      "url": "/products/mutton-keema-gourmet-raw-hd.webp",
+      "size": 227348,
+      "category": "products",
+      "createdAt": "2026-11-04T12:17:31.543Z"
+    },
+    {
+      "id": "ast-products-mutton_keema_hd_jpg",
+      "filename": "mutton-keema-hd.jpg",
+      "originalName": "mutton-keema-hd.jpg",
+      "url": "/products/mutton-keema-hd.jpg",
+      "size": 65830,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.773Z"
+    },
+    {
+      "id": "ast-products-mutton_keema_hd_webp",
+      "filename": "mutton-keema-hd.webp",
+      "originalName": "mutton-keema-hd.webp",
+      "url": "/products/mutton-keema-hd.webp",
+      "size": 28116,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.778Z"
+    },
+    {
+      "id": "ast-products-mutton_keema_table_raw_webp",
+      "filename": "mutton-keema-table-raw.webp",
+      "originalName": "mutton-keema-table-raw.webp",
+      "url": "/products/mutton-keema-table-raw.webp",
+      "size": 141280,
+      "category": "products",
+      "createdAt": "2026-11-04T12:24:29.156Z"
+    },
+    {
+      "id": "ast-products-mutton_keema_tray_raw_webp",
+      "filename": "mutton-keema-tray-raw.webp",
+      "originalName": "mutton-keema-tray-raw.webp",
+      "url": "/products/mutton-keema-tray-raw.webp",
+      "size": 123830,
+      "category": "products",
+      "createdAt": "2026-11-04T12:24:43.670Z"
+    },
+    {
+      "id": "ast-products-mutton_keema_wooden_board_webp",
+      "filename": "mutton-keema-wooden-board.webp",
+      "originalName": "mutton-keema-wooden-board.webp",
+      "url": "/products/mutton-keema-wooden-board.webp",
+      "size": 132918,
+      "category": "products",
+      "createdAt": "2026-11-04T12:24:57.311Z"
+    },
+    {
+      "id": "ast-products-mutton_liver_webp",
+      "filename": "mutton-liver.webp",
+      "originalName": "mutton-liver.webp",
+      "url": "/products/mutton-liver.webp",
+      "size": 15272,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.779Z"
+    },
+    {
+      "id": "ast-products-mutton_paya_authentic_hd_webp",
+      "filename": "mutton-paya-authentic-hd.webp",
+      "originalName": "mutton-paya-authentic-hd.webp",
+      "url": "/products/mutton-paya-authentic-hd.webp",
+      "size": 216944,
+      "category": "products",
+      "createdAt": "2026-11-04T12:18:22.566Z"
+    },
+    {
+      "id": "ast-products-mutton_paya_clean_hd_webp",
+      "filename": "mutton-paya-clean-hd.webp",
+      "originalName": "mutton-paya-clean-hd.webp",
+      "url": "/products/mutton-paya-clean-hd.webp",
+      "size": 60200,
+      "category": "products",
+      "createdAt": "2026-11-04T07:49:20.796Z"
+    },
+    {
+      "id": "ast-products-mutton_paya_hd_webp",
+      "filename": "mutton-paya-hd.webp",
+      "originalName": "mutton-paya-hd.webp",
+      "url": "/products/mutton-paya-hd.webp",
+      "size": 42580,
+      "category": "products",
+      "createdAt": "2026-11-04T07:09:49.951Z"
+    },
+    {
+      "id": "ast-products-mutton_raan_raw_hd_webp",
+      "filename": "mutton-raan-raw-hd.webp",
+      "originalName": "mutton-raan-raw-hd.webp",
+      "url": "/products/mutton-raan-raw-hd.webp",
+      "size": 164518,
+      "category": "products",
+      "createdAt": "2026-11-04T07:49:40.091Z"
+    },
+    {
+      "id": "ast-products-mutton_webp",
+      "filename": "mutton.webp",
+      "originalName": "mutton.webp",
+      "url": "/products/mutton.webp",
+      "size": 53672,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.787Z"
+    },
+    {
+      "id": "ast-products-onion_jpg",
+      "filename": "onion.jpg",
+      "originalName": "onion.jpg",
+      "url": "/products/onion.jpg",
+      "size": 140301,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.790Z"
+    },
+    {
+      "id": "ast-products-onion_webp",
+      "filename": "onion.webp",
+      "originalName": "onion.webp",
+      "url": "/products/onion.webp",
+      "size": 49948,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.792Z"
+    },
+    {
+      "id": "ast-products-papda_webp",
+      "filename": "papda.webp",
+      "originalName": "papda.webp",
+      "url": "/products/papda.webp",
+      "size": 12520,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.792Z"
+    },
+    {
+      "id": "ast-products-potato_jpg",
+      "filename": "potato.jpg",
+      "originalName": "potato.jpg",
+      "url": "/products/potato.jpg",
+      "size": 48328,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.792Z"
+    },
+    {
+      "id": "ast-products-potato_webp",
+      "filename": "potato.webp",
+      "originalName": "potato.webp",
+      "url": "/products/potato.webp",
+      "size": 23296,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.800Z"
+    },
+    {
+      "id": "ast-products-prawns_fresh_hd_webp",
+      "filename": "prawns-fresh-hd.webp",
+      "originalName": "prawns-fresh-hd.webp",
+      "url": "/products/prawns-fresh-hd.webp",
+      "size": 55464,
+      "category": "products",
+      "createdAt": "2026-11-04T07:09:51.251Z"
+    },
+    {
+      "id": "ast-products-prawns_jumbo_hd_jpg",
+      "filename": "prawns-jumbo-hd.jpg",
+      "originalName": "prawns-jumbo-hd.jpg",
+      "url": "/products/prawns-jumbo-hd.jpg",
+      "size": 93743,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.800Z"
+    },
+    {
+      "id": "ast-products-prawns_jumbo_hd_webp",
+      "filename": "prawns-jumbo-hd.webp",
+      "originalName": "prawns-jumbo-hd.webp",
+      "url": "/products/prawns-jumbo-hd.webp",
+      "size": 36380,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.806Z"
+    },
+    {
+      "id": "ast-products-prawns_premium_fresh_hd_webp",
+      "filename": "prawns-premium-fresh-hd.webp",
+      "originalName": "prawns-premium-fresh-hd.webp",
+      "url": "/products/prawns-premium-fresh-hd.webp",
+      "size": 237636,
+      "category": "products",
+      "createdAt": "2026-11-04T12:35:16.533Z"
+    },
+    {
+      "id": "ast-products-prawns_raw_cleaned_hd_webp",
+      "filename": "prawns-raw-cleaned-hd.webp",
+      "originalName": "prawns-raw-cleaned-hd.webp",
+      "url": "/products/prawns-raw-cleaned-hd.webp",
+      "size": 133502,
+      "category": "products",
+      "createdAt": "2026-11-04T07:34:02.229Z"
+    },
+    {
+      "id": "ast-products-prawns_webp",
+      "filename": "prawns.webp",
+      "originalName": "prawns.webp",
+      "url": "/products/prawns.webp",
+      "size": 9476,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.809Z"
+    },
+    {
+      "id": "ast-products-prod_boneless_breast_webp",
+      "filename": "prod-boneless-breast.webp",
+      "originalName": "prod-boneless-breast.webp",
+      "url": "/products/prod-boneless-breast.webp",
+      "size": 17168,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.811Z"
+    },
+    {
+      "id": "ast-products-prod_curry_cut_webp",
+      "filename": "prod-curry-cut.webp",
+      "originalName": "prod-curry-cut.webp",
+      "url": "/products/prod-curry-cut.webp",
+      "size": 19404,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.813Z"
+    },
+    {
+      "id": "ast-products-prod_drumsticks_webp",
+      "filename": "prod-drumsticks.webp",
+      "originalName": "prod-drumsticks.webp",
+      "url": "/products/prod-drumsticks.webp",
+      "size": 19864,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.815Z"
+    },
+    {
+      "id": "ast-products-prod_keema_webp",
+      "filename": "prod-keema.webp",
+      "originalName": "prod-keema.webp",
+      "url": "/products/prod-keema.webp",
+      "size": 22688,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.818Z"
+    },
+    {
+      "id": "ast-products-prod_mutton_curry_webp",
+      "filename": "prod-mutton-curry.webp",
+      "originalName": "prod-mutton-curry.webp",
+      "url": "/products/prod-mutton-curry.webp",
+      "size": 20122,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.819Z"
+    },
+    {
+      "id": "ast-products-prod_prawns_webp",
+      "filename": "prod-prawns.webp",
+      "originalName": "prod-prawns.webp",
+      "url": "/products/prod-prawns.webp",
+      "size": 19352,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.822Z"
+    },
+    {
+      "id": "ast-products-prod_rohu_whole_webp",
+      "filename": "prod-rohu-whole.webp",
+      "originalName": "prod-rohu-whole.webp",
+      "url": "/products/prod-rohu-whole.webp",
+      "size": 18568,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.823Z"
+    },
+    {
+      "id": "ast-products-prod_veg_combo_webp",
+      "filename": "prod-veg-combo.webp",
+      "originalName": "prod-veg-combo.webp",
+      "url": "/products/prod-veg-combo.webp",
+      "size": 19552,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.825Z"
+    },
+    {
+      "id": "ast-products-raw_chicken_pieces_test_webp",
+      "filename": "raw-chicken-pieces-test.webp",
+      "originalName": "raw-chicken-pieces-test.webp",
+      "url": "/products/raw-chicken-pieces-test.webp",
+      "size": 80392,
+      "category": "products",
+      "createdAt": "2026-11-04T07:24:14.974Z"
+    },
+    {
+      "id": "ast-products-rohu_curry_cut_authentic_head_webp",
+      "filename": "rohu-curry-cut-authentic-head.webp",
+      "originalName": "rohu-curry-cut-authentic-head.webp",
+      "url": "/products/rohu-curry-cut-authentic-head.webp",
+      "size": 286242,
+      "category": "products",
+      "createdAt": "2026-11-04T12:20:19.364Z"
+    },
+    {
+      "id": "ast-products-rohu_large_hd_webp",
+      "filename": "rohu-large-hd.webp",
+      "originalName": "rohu-large-hd.webp",
+      "url": "/products/rohu-large-hd.webp",
+      "size": 235356,
+      "category": "products",
+      "createdAt": "2026-11-04T07:20:34.111Z"
+    },
+    {
+      "id": "ast-products-rohu_with_head_hd_webp",
+      "filename": "rohu-with-head-hd.webp",
+      "originalName": "rohu-with-head-hd.webp",
+      "url": "/products/rohu-with-head-hd.webp",
+      "size": 286242,
+      "category": "products",
+      "createdAt": "2026-11-04T07:20:19.225Z"
+    },
+    {
+      "id": "ast-products-tengra_webp",
+      "filename": "tengra.webp",
+      "originalName": "tengra.webp",
+      "url": "/products/tengra.webp",
+      "size": 14958,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.831Z"
+    },
+    {
+      "id": "ast-products-tomato_jpg",
+      "filename": "tomato.jpg",
+      "originalName": "tomato.jpg",
+      "url": "/products/tomato.jpg",
+      "size": 112343,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.834Z"
+    },
+    {
+      "id": "ast-products-tomato_webp",
+      "filename": "tomato.webp",
+      "originalName": "tomato.webp",
+      "url": "/products/tomato.webp",
+      "size": 57190,
+      "category": "products",
+      "createdAt": "2026-11-04T06:08:35.835Z"
+    },
+    {
+      "id": "ast-categories-cat_all_ultra_hd_webp",
+      "filename": "cat-all-ultra-hd.webp",
+      "originalName": "cat-all-ultra-hd.webp",
+      "url": "/categories/cat-all-ultra-hd.webp",
+      "size": 120320,
+      "category": "categories",
+      "createdAt": "2026-11-04T08:01:39.247Z"
+    },
+    {
+      "id": "ast-categories-cat_chicken_hd_webp",
+      "filename": "cat-chicken-hd.webp",
+      "originalName": "cat-chicken-hd.webp",
+      "url": "/categories/cat-chicken-hd.webp",
+      "size": 18726,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.540Z"
+    },
+    {
+      "id": "ast-categories-cat_chicken_ultra_hd_webp",
+      "filename": "cat-chicken-ultra-hd.webp",
+      "originalName": "cat-chicken-ultra-hd.webp",
+      "url": "/categories/cat-chicken-ultra-hd.webp",
+      "size": 126480,
+      "category": "categories",
+      "createdAt": "2026-11-04T08:01:40.664Z"
+    },
+    {
+      "id": "ast-categories-cat_fish_hd_webp",
+      "filename": "cat-fish-hd.webp",
+      "originalName": "cat-fish-hd.webp",
+      "url": "/categories/cat-fish-hd.webp",
+      "size": 32236,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.540Z"
+    },
+    {
+      "id": "ast-categories-cat_fish_ultra_hd_webp",
+      "filename": "cat-fish-ultra-hd.webp",
+      "originalName": "cat-fish-ultra-hd.webp",
+      "url": "/categories/cat-fish-ultra-hd.webp",
+      "size": 128034,
+      "category": "categories",
+      "createdAt": "2026-11-04T08:01:44.650Z"
+    },
+    {
+      "id": "ast-categories-cat_mutton_hd_webp",
+      "filename": "cat-mutton-hd.webp",
+      "originalName": "cat-mutton-hd.webp",
+      "url": "/categories/cat-mutton-hd.webp",
+      "size": 20684,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.546Z"
+    },
+    {
+      "id": "ast-categories-cat_mutton_ultra_hd_webp",
+      "filename": "cat-mutton-ultra-hd.webp",
+      "originalName": "cat-mutton-ultra-hd.webp",
+      "url": "/categories/cat-mutton-ultra-hd.webp",
+      "size": 121708,
+      "category": "categories",
+      "createdAt": "2026-11-04T08:01:42.681Z"
+    },
+    {
+      "id": "ast-categories-cat_veg_hd_webp",
+      "filename": "cat-veg-hd.webp",
+      "originalName": "cat-veg-hd.webp",
+      "url": "/categories/cat-veg-hd.webp",
+      "size": 42990,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.549Z"
+    },
+    {
+      "id": "ast-categories-cat_veg_ultra_hd_webp",
+      "filename": "cat-veg-ultra-hd.webp",
+      "originalName": "cat-veg-ultra-hd.webp",
+      "url": "/categories/cat-veg-ultra-hd.webp",
+      "size": 112496,
+      "category": "categories",
+      "createdAt": "2026-11-04T08:01:36.899Z"
+    },
+    {
+      "id": "ast-categories-chicken_banner_clean_webp",
+      "filename": "chicken-banner-clean.webp",
+      "originalName": "chicken-banner-clean.webp",
+      "url": "/categories/chicken-banner-clean.webp",
+      "size": 144128,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.552Z"
+    },
+    {
+      "id": "ast-categories-chicken_cat_png",
+      "filename": "chicken-cat.png",
+      "originalName": "chicken-cat.png",
+      "url": "/categories/chicken-cat.png",
+      "size": 75015,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.553Z"
+    },
+    {
+      "id": "ast-categories-chicken_cat_webp",
+      "filename": "chicken-cat.webp",
+      "originalName": "chicken-cat.webp",
+      "url": "/categories/chicken-cat.webp",
+      "size": 6690,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.553Z"
+    },
+    {
+      "id": "ast-categories-chicken_exact_webp",
+      "filename": "chicken-exact.webp",
+      "originalName": "chicken-exact.webp",
+      "url": "/categories/chicken-exact.webp",
+      "size": 5934,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.553Z"
+    },
+    {
+      "id": "ast-categories-chicken_fresh_jpg",
+      "filename": "chicken-fresh.jpg",
+      "originalName": "chicken-fresh.jpg",
+      "url": "/categories/chicken-fresh.jpg",
+      "size": 96047,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.559Z"
+    },
+    {
+      "id": "ast-categories-chicken_fresh_webp",
+      "filename": "chicken-fresh.webp",
+      "originalName": "chicken-fresh.webp",
+      "url": "/categories/chicken-fresh.webp",
+      "size": 38554,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.559Z"
+    },
+    {
+      "id": "ast-categories-chicken_webp",
+      "filename": "chicken.webp",
+      "originalName": "chicken.webp",
+      "url": "/categories/chicken.webp",
+      "size": 30912,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.569Z"
+    },
+    {
+      "id": "ast-categories-fish_cat_png",
+      "filename": "fish-cat.png",
+      "originalName": "fish-cat.png",
+      "url": "/categories/fish-cat.png",
+      "size": 50560,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.575Z"
+    },
+    {
+      "id": "ast-categories-fish_cat_webp",
+      "filename": "fish-cat.webp",
+      "originalName": "fish-cat.webp",
+      "url": "/categories/fish-cat.webp",
+      "size": 50560,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.575Z"
+    },
+    {
+      "id": "ast-categories-fish_category_jpg",
+      "filename": "fish-category.jpg",
+      "originalName": "fish-category.jpg",
+      "url": "/categories/fish-category.jpg",
+      "size": 21675,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.575Z"
+    },
+    {
+      "id": "ast-categories-fish_exact_webp",
+      "filename": "fish-exact.webp",
+      "originalName": "fish-exact.webp",
+      "url": "/categories/fish-exact.webp",
+      "size": 10588,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.575Z"
+    },
+    {
+      "id": "ast-categories-fish_fresh_webp",
+      "filename": "fish-fresh.webp",
+      "originalName": "fish-fresh.webp",
+      "url": "/categories/fish-fresh.webp",
+      "size": 17424,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.575Z"
+    },
+    {
+      "id": "ast-categories-fish_thumb_jpg",
+      "filename": "fish-thumb.jpg",
+      "originalName": "fish-thumb.jpg",
+      "url": "/categories/fish-thumb.jpg",
+      "size": 50560,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.575Z"
+    },
+    {
+      "id": "ast-categories-fish_thumb_webp",
+      "filename": "fish-thumb.webp",
+      "originalName": "fish-thumb.webp",
+      "url": "/categories/fish-thumb.webp",
+      "size": 50560,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.585Z"
+    },
+    {
+      "id": "ast-categories-fresh_river_fish_v2_webp",
+      "filename": "fresh-river-fish-v2.webp",
+      "originalName": "fresh-river-fish-v2.webp",
+      "url": "/categories/fresh-river-fish-v2.webp",
+      "size": 20364,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.588Z"
+    },
+    {
+      "id": "ast-categories-hero_chicken_exact_webp",
+      "filename": "hero-chicken-exact.webp",
+      "originalName": "hero-chicken-exact.webp",
+      "url": "/categories/hero-chicken-exact.webp",
+      "size": 59036,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.589Z"
+    },
+    {
+      "id": "ast-categories-mutton_cat_png",
+      "filename": "mutton-cat.png",
+      "originalName": "mutton-cat.png",
+      "url": "/categories/mutton-cat.png",
+      "size": 63750,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.593Z"
+    },
+    {
+      "id": "ast-categories-mutton_cat_webp",
+      "filename": "mutton-cat.webp",
+      "originalName": "mutton-cat.webp",
+      "url": "/categories/mutton-cat.webp",
+      "size": 7096,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.593Z"
+    },
+    {
+      "id": "ast-categories-mutton_exact_webp",
+      "filename": "mutton-exact.webp",
+      "originalName": "mutton-exact.webp",
+      "url": "/categories/mutton-exact.webp",
+      "size": 1956,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.593Z"
+    },
+    {
+      "id": "ast-categories-mutton_fresh_jpg",
+      "filename": "mutton-fresh.jpg",
+      "originalName": "mutton-fresh.jpg",
+      "url": "/categories/mutton-fresh.jpg",
+      "size": 73163,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.598Z"
+    },
+    {
+      "id": "ast-categories-mutton_fresh_webp",
+      "filename": "mutton-fresh.webp",
+      "originalName": "mutton-fresh.webp",
+      "url": "/categories/mutton-fresh.webp",
+      "size": 20684,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.598Z"
+    },
+    {
+      "id": "ast-categories-mutton_webp",
+      "filename": "mutton.webp",
+      "originalName": "mutton.webp",
+      "url": "/categories/mutton.webp",
+      "size": 34582,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.611Z"
+    },
+    {
+      "id": "ast-categories-real_chicken_clean_webp",
+      "filename": "real-chicken-clean.webp",
+      "originalName": "real-chicken-clean.webp",
+      "url": "/categories/real-chicken-clean.webp",
+      "size": 18098,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.611Z"
+    },
+    {
+      "id": "ast-categories-real_fish_clean_webp",
+      "filename": "real-fish-clean.webp",
+      "originalName": "real-fish-clean.webp",
+      "url": "/categories/real-fish-clean.webp",
+      "size": 17424,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.615Z"
+    },
+    {
+      "id": "ast-categories-real_mutton_clean_webp",
+      "filename": "real-mutton-clean.webp",
+      "originalName": "real-mutton-clean.webp",
+      "url": "/categories/real-mutton-clean.webp",
+      "size": 15890,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.617Z"
+    },
+    {
+      "id": "ast-categories-real_veg_clean_webp",
+      "filename": "real-veg-clean.webp",
+      "originalName": "real-veg-clean.webp",
+      "url": "/categories/real-veg-clean.webp",
+      "size": 18292,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.617Z"
+    },
+    {
+      "id": "ast-categories-reference_categories_png",
+      "filename": "reference-categories.png",
+      "originalName": "reference-categories.png",
+      "url": "/categories/reference-categories.png",
+      "size": 306838,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.617Z"
+    },
+    {
+      "id": "ast-categories-reference_categories_webp",
+      "filename": "reference-categories.webp",
+      "originalName": "reference-categories.webp",
+      "url": "/categories/reference-categories.webp",
+      "size": 25672,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.617Z"
+    },
+    {
+      "id": "ast-categories-veg_exact_webp",
+      "filename": "veg-exact.webp",
+      "originalName": "veg-exact.webp",
+      "url": "/categories/veg-exact.webp",
+      "size": 11382,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.617Z"
+    },
+    {
+      "id": "ast-categories-vegetables_cat_png",
+      "filename": "vegetables-cat.png",
+      "originalName": "vegetables-cat.png",
+      "url": "/categories/vegetables-cat.png",
+      "size": 19635,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.630Z"
+    },
+    {
+      "id": "ast-categories-vegetables_cat_webp",
+      "filename": "vegetables-cat.webp",
+      "originalName": "vegetables-cat.webp",
+      "url": "/categories/vegetables-cat.webp",
+      "size": 3168,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.630Z"
+    },
+    {
+      "id": "ast-categories-vegetables_fresh_jpg",
+      "filename": "vegetables-fresh.jpg",
+      "originalName": "vegetables-fresh.jpg",
+      "url": "/categories/vegetables-fresh.jpg",
+      "size": 285439,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.633Z"
+    },
+    {
+      "id": "ast-categories-vegetables_fresh_webp",
+      "filename": "vegetables-fresh.webp",
+      "originalName": "vegetables-fresh.webp",
+      "url": "/categories/vegetables-fresh.webp",
+      "size": 42990,
+      "category": "categories",
+      "createdAt": "2026-11-04T06:08:35.633Z"
+    },
+    {
+      "id": "ast-brand-icon_png",
+      "filename": "icon.png",
+      "originalName": "icon.png",
+      "url": "/brand/icon.png",
+      "size": 31217,
+      "category": "brand",
+      "createdAt": "2026-11-04T06:08:35.538Z"
+    }
+  ],
+  "orders": [
+    {
+      "orderId": "CHK-785909",
+      "customerName": "Prachi Gupta",
+      "mobileNumber": "9988804146",
+      "streetAddress": "123",
+      "landmark": "",
+      "pincode": "221002",
+      "deliverySlot": "Express (45-60 mins)",
+      "paymentMethod": "UPI_ON_DELIVERY",
+      "items": [
+        {
+          "id": 431,
+          "itemKey": "431_Medium size (1 kg)",
+          "name": "Rohu & Catla Curry Cut (With Head)",
+          "slug": "rohu-catla-curry-cut-with-head",
+          "category": "Fish & Seafood",
+          "weight": "Medium size (1 kg)",
+          "price": 380,
+          "originalPrice": 420,
+          "image": "/products/rohu-with-head-hd.webp",
+          "quantity": 1,
+          "cutType": "Bengali Cut With Head"
+        }
+      ],
+      "itemsPrice": 380,
+      "deliveryFee": 0,
+      "discount": 0,
+      "couponCode": "",
+      "finalTotal": 380,
+      "status": "CONFIRMED",
+      "createdAt": "2026-11-04T16:42:20.621Z"
+    },
+    {
+      "orderId": "CHK-729173",
+      "customerName": "Prachi Gupta",
+      "mobileNumber": "9988804146",
+      "streetAddress": "madapur ,samaspur,ghosi-mau",
+      "landmark": "",
+      "pincode": "221002",
+      "deliverySlot": "Evening (4 PM - 7 PM)",
+      "paymentMethod": "COD",
+      "items": [
+        {
+          "id": 404,
+          "name": "Boneless Chicken Breast Fillets",
+          "slug": "chicken-breast",
+          "category": "Chicken",
+          "weight": "1 kg (Min order)",
+          "price": 350,
+          "originalPrice": 420,
+          "image": "/products/chicken-breast.webp",
+          "quantity": 1,
+          "cutType": "Clean Fillets"
+        }
+      ],
+      "itemsPrice": 350,
+      "deliveryFee": 0,
+      "discount": 0,
+      "couponCode": "",
+      "finalTotal": 350,
+      "status": "DELIVERED",
+      "createdAt": "2026-10-31T11:44:37.530Z",
+      "updatedAt": "2026-11-04T14:11:49.600Z"
+    },
+    {
+      "orderId": "CHK-671277",
+      "customerName": "test",
+      "mobileNumber": "8960595436",
+      "streetAddress": "Jhansi,Uttar-Pradesh,India",
+      "landmark": "",
+      "pincode": "284129",
+      "deliverySlot": "Express (45-60 mins)",
+      "paymentMethod": "COD",
+      "items": [
+        {
+          "id": 380,
+          "name": "Desi Country Chicken (Cockrel)",
+          "slug": "desi-cockrel-chicken",
+          "category": "Chicken",
+          "weight": "1 kg (Min order)",
+          "price": 350,
+          "originalPrice": 420,
+          "image": "/products/desi-chicken.webp",
+          "quantity": 1,
+          "cutType": "Curry Cut (Medium)"
+        }
+      ],
+      "itemsPrice": 350,
+      "deliveryFee": 0,
+      "discount": 0,
+      "couponCode": "",
+      "finalTotal": 350,
+      "status": "CONFIRMED",
+      "createdAt": "2026-10-28T16:01:07.250Z"
+    },
+    {
+      "orderId": "CHK-361196",
+      "customerName": "Test",
+      "mobileNumber": "9999999999",
+      "streetAddress": "test",
+      "landmark": "",
+      "pincode": "221005",
+      "deliverySlot": "Express (45-60 mins)",
+      "paymentMethod": "COD",
+      "items": [
+        {
+          "id": 415,
+          "name": "Rich Goat Mutton Curry Cut",
+          "slug": "mutton-curry-cut",
+          "category": "Mutton",
+          "weight": "500 g (Half kg min)",
+          "price": 360,
+          "originalPrice": 420,
+          "image": "/products/mutton-curry.jpeg",
+          "quantity": 3,
+          "cutType": "Curry Cut (Bone-in)"
+        }
+      ],
+      "itemsPrice": 1080,
+      "deliveryFee": 0,
+      "discount": 0,
+      "couponCode": "",
+      "finalTotal": 1080,
+      "status": "CONFIRMED",
+      "createdAt": "2026-10-28T15:43:36.249Z"
+    }
+  ],
+  "settings": {
+    "isStoreOpen": true,
+    "closedNotice": "We are currently closed for daily sanitization. Orders placed now will be prepared tomorrow morning.",
+    "pincodes": {
+      "221001": {
+        "area": "Varanasi Cantt / Sigra",
+        "fee": 0,
+        "time": "45-60 mins",
+        "active": true
+      },
+      "221002": {
+        "area": "Chetganj / Lahurabir",
+        "fee": 0,
+        "time": "45-60 mins",
+        "active": true
+      },
+      "221003": {
+        "area": "Chowk / Godowlia",
+        "fee": 0,
+        "time": "45-60 mins",
+        "active": true
+      },
+      "221004": {
+        "area": "Adampura / Rajghat",
+        "fee": 0,
+        "time": "60 mins",
+        "active": true
+      },
+      "221005": {
+        "area": "BHU / Lanka / Assi",
+        "fee": 0,
+        "time": "30-45 mins",
+        "active": true
+      },
+      "221006": {
+        "area": "Sarnath / Pandeypur",
+        "fee": 0,
+        "time": "60-75 mins",
+        "active": true
+      },
+      "221007": {
+        "area": "Shivpur / Gilat Bazar",
+        "fee": 0,
+        "time": "45-60 mins",
+        "active": true
+      },
+      "221008": {
+        "area": "Mahmoorganj / Manduadih",
+        "fee": 0,
+        "time": "30-45 mins",
+        "active": true
+      },
+      "221010": {
+        "area": "Bhelupur / Durgakund",
+        "fee": 0,
+        "time": "30-45 mins",
+        "active": true
+      }
+    }
+  }
+}

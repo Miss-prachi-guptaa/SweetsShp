@@ -1,0 +1,28 @@
+{
+  "name": "vindhyavaisini-sweetshop",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/nodemailer": "^8.0.2",
+    "next": "^16.4.2",
+    "nodemailer": "^10.3.1",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "sharp": "^0.35.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.6.2",
+    "postcss": "^8.5.32",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5.7.0"
+  }
+}
