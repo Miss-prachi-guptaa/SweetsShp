@@ -65,7 +65,7 @@ export default function PrivacyPolicyPage() {
           <div className="contact-callout">
             <p><strong>Chicksum Fresh Meats</strong></p>
             <p>📍 Store Address: Ghosi, Tehsil Ghosi, District Mau, Uttar Pradesh – 284128</p>
-            <p>📞 Phone / WhatsApp: <a href="https://wa.me/919919853648">+91 99198 53648</a></p>
+            <p>📞 Phone / WhatsApp: <a href="https://wa.me/919264933232">+91 92649 33232</a></p>
             <p>✉️ Email: <a href="mailto:Utkarsh.221005@gmail.com">Utkarsh.221005@gmail.com</a></p>
           </div>
         </section>

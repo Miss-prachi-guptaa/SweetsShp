@@ -38,7 +38,7 @@ export default function Footer() {
             {/* Social Icons */}
             <div className="flex items-center gap-3 pt-2">
               <a
-                href="https://wa.me/919919853648"
+                href="https://wa.me/919264933232"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-8 h-8 rounded-full bg-[#121721] hover:bg-[#25D366] text-neutral-300 hover:text-black flex items-center justify-center transition-all border border-[#212838]"
@@ -111,7 +111,7 @@ export default function Footer() {
           <div className="space-y-3">
             <h3 className="text-sm font-bold text-white tracking-wider">Connect With Us</h3>
             <a
-              href="https://wa.me/919919853648?text=Namaste%20Vindhyavaisini!%20I%20need%20help%20with%20an%20order."
+              href="https://wa.me/919264933232?text=Namaste%20Vindhyavaisini!%20I%20need%20help%20with%20an%20order."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#121721] hover:bg-[#25D366] text-white hover:text-black border border-[#212838] hover:border-[#25D366] px-4 py-2.5 rounded-full transition-all text-xs font-semibold shadow-md group"
@@ -124,7 +124,7 @@ export default function Footer() {
               <span>Chat on WhatsApp</span>
             </a>
             <p className="text-[11px] text-neutral-400">
-              Helpline: +91 99198 53648<br />
+              Helpline: +91 92649 33232<br />
               Email: <a href="mailto:Utkarsh.221005@gmail.com" className="hover:text-[#DAAE3C] text-neutral-300">Utkarsh.221005@gmail.com</a><br />
               Ghosi, Tehsil Ghosi, District Mau – 284128<br />Free delivery within 2 km • Minimum order ₹110
             </p>

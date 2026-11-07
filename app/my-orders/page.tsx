@@ -53,7 +53,7 @@ export default function MyOrdersPage() {
     const text = encodeURIComponent(
       `Namaste Vindhyavaisini! Please share live status for my order #${orderId}.`
     );
-    window.open(`https://wa.me/919919853648?text=${text}`, "_blank");
+    window.open(`https://wa.me/919264933232?text=${text}`, "_blank");
   };
 
   return (

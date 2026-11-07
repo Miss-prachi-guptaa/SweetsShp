@@ -4,7 +4,7 @@ import React from "react";
 import { WhatsAppIcon } from "./Icons";
 import { useCart } from "@/lib/CartContext";
 
-const WHATSAPP_NUMBER = "919919853648";
+const WHATSAPP_NUMBER = "919264933232";
 const WHATSAPP_DEFAULT_TEXT = "Namaste Vindhyavaisini! I want to order fresh mithai and snacks in Ghosi. Please share today's menu.";
 
 export default function FloatingContactButtons() {

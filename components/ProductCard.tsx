@@ -63,7 +63,7 @@ export default function ProductCard({ product }: { product: ProductProps }) {
     const text = encodeURIComponent(
       `Namaste Vindhyavaisini! I want to order: *${product.name}* (${currentWeight}) at ₹${currentPrice}. Please confirm availability.`
     );
-    window.open(`https://wa.me/919919853648?text=${text}`, "_blank");
+    window.open(`https://wa.me/919264933232?text=${text}`, "_blank");
   };
 
   return (

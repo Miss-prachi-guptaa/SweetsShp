@@ -26,7 +26,7 @@ export default function OrderSuccessPage() {
       const text = encodeURIComponent(
         `Namaste Vindhyavaisini! I just placed order #${orderId}. Please send me preparation and delivery updates.`
       );
-      window.open(`https://wa.me/919919853648?text=${text}`, "_blank");
+      window.open(`https://wa.me/919264933232?text=${text}`, "_blank");
       return;
     }
 
@@ -46,7 +46,7 @@ export default function OrderSuccessPage() {
       `💵 *FINAL TOTAL:* ₹${order.finalTotal}\n\n` +
       `Please confirm and dispatch!`;
 
-    window.open(`https://wa.me/919919853648?text=${encodeURIComponent(fullMessage)}`, "_blank");
+    window.open(`https://wa.me/919264933232?text=${encodeURIComponent(fullMessage)}`, "_blank");
   };
 
   return (

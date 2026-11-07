@@ -30,7 +30,7 @@ export default function Header() {
     const text = encodeURIComponent(
       "Namaste Vindhyavaisini! Please confirm delivery to my area and help me place an order."
     );
-    window.open(`https://wa.me/919919853648?text=${text}`, "_blank");
+    window.open(`https://wa.me/919264933232?text=${text}`, "_blank");
   };
 
   const handleSearchSubmit = (e: React.FormEvent) => {
@@ -162,7 +162,7 @@ export default function Header() {
 
               {/* WhatsApp Quick Order Button */}
               <a
-                href="https://wa.me/919919853648?text=Namaste%20Vindhyavaisini!%20I%20would%20like%20to%20order%20mithai%20and%20snacks."
+                href="https://wa.me/919264933232?text=Namaste%20Vindhyavaisini!%20I%20would%20like%20to%20order%20mithai%20and%20snacks."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hidden lg:flex items-center gap-2 bg-[#121620] hover:bg-[#25D366] text-neutral-200 hover:text-black border border-[#232B3A] hover:border-[#25D366] px-3.5 py-2 rounded-full transition-all text-xs font-semibold"

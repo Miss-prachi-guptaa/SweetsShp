@@ -48,10 +48,10 @@ export default function ContactPage() {
             <p className="mt-3 text-sm leading-6 text-neutral-400">For orders, stock enquiries, custom cut photographs or bulk supply requirements, choose the channel that works best for you.</p>
             <div className="mt-6 divide-y divide-[#243044]">
               <ContactRow icon={<WhatsAppIcon size={24} color="#25D366" />} title="WhatsApp (Preferred)" description="Orders, stock enquiries and custom cut photos">
-                <a href="https://wa.me/919919853648" target="_blank" rel="noopener noreferrer" className="rounded-full bg-[#DAAE3C] px-4 py-2 text-xs font-black text-black hover:bg-[#B58729]">Chat on WhatsApp →</a>
+                <a href="https://wa.me/919264933232" target="_blank" rel="noopener noreferrer" className="rounded-full bg-[#DAAE3C] px-4 py-2 text-xs font-black text-black hover:bg-[#B58729]">Chat on WhatsApp →</a>
               </ContactRow>
               <ContactRow icon={<PhoneIcon size={22} color="#DAAE3C" />} title="Call Us" description="Direct line for delivery, dispatch and enquiries">
-                <a href="tel:+919919853648" className="text-sm font-black text-[#DAAE3C] hover:text-white">+91 99198 53648</a>
+                <a href="tel:+919264933232" className="text-sm font-black text-[#DAAE3C] hover:text-white">+91 92649 33232</a>
               </ContactRow>
               <ContactRow icon={<span className="text-xl">✉</span>} title="Email Us" description="Official support and catering enquiries">
                 <a href="mailto:Utkarsh.221005@gmail.com" className="text-sm font-black text-[#DAAE3C] hover:text-white">Utkarsh.221005@gmail.com</a>

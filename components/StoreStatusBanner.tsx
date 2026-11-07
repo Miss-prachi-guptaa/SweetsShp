@@ -44,7 +44,7 @@ export default function StoreStatusBanner() {
           </span>
         </div>
         <a
-          href="https://wa.me/919919853648?text=Namaste%20Vindhyavaisini!%20Can%20I%20pre-book%20mithai%20or%20snacks%20for%20tomorrow?"
+          href="https://wa.me/919264933232?text=Namaste%20Vindhyavaisini!%20Can%20I%20pre-book%20mithai%20or%20snacks%20for%20tomorrow?"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-white hover:bg-neutral-100 text-red-700 font-extrabold text-[11px] uppercase px-3 py-1 rounded-lg tracking-wider transition-all whitespace-nowrap ml-auto"

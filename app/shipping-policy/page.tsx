@@ -69,8 +69,8 @@ export default function ShippingPolicyPage() {
         <div className="contact-callout">
           <p><strong>Dispatch Hub &amp; Enquiries:</strong></p>
           <p>📍 Store Address: Ghosi, Tehsil Ghosi, District Mau, Uttar Pradesh – 284128</p>
-          <p>💬 WhatsApp Hotline: <a href="https://wa.me/919919853648">+91 99198 53648</a></p>
-          <p>📞 Call Us: <a href="tel:+919919853648">+91 99198 53648</a></p>
+          <p>💬 WhatsApp Hotline: <a href="https://wa.me/919264933232">+91 92649 33232</a></p>
+          <p>📞 Call Us: <a href="tel:+919264933232">+91 92649 33232</a></p>
           <p>✉️ Mail Id: <a href="mailto:Utkarsh.221005@gmail.com">Utkarsh.221005@gmail.com</a></p>
         </div>
 

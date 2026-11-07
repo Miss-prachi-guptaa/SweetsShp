@@ -19,7 +19,7 @@ export default function MobileBottomNav() {
     const text = encodeURIComponent(
       "Namaste Vindhyavaisini! Please share today's fresh mithai and snacks menu."
     );
-    window.open(`https://wa.me/919919853648?text=${text}`, "_blank");
+    window.open(`https://wa.me/919264933232?text=${text}`, "_blank");
   };
 
   return (

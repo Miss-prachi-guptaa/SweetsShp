@@ -29,7 +29,7 @@ export default function RefundPolicyPage() {
             You may cancel or amend your order at any time <strong>before our master butcher begins cutting your portion</strong>. Since custom cuts cannot be re-purposed, once the order has been prepared and vacuum-packed, cancellations cannot be accepted.
           </p>
           <p>
-            To cancel an order before preparation begins, please message us immediately on WhatsApp at <a href="https://wa.me/919919853648"><strong>+91 99198 53648</strong></a>.
+            To cancel an order before preparation begins, please message us immediately on WhatsApp at <a href="https://wa.me/919264933232"><strong>+91 92649 33232</strong></a>.
           </p>
         </section>
 
@@ -59,8 +59,8 @@ export default function RefundPolicyPage() {
 
         <div className="contact-callout">
           <p><strong>Need Assistance with an Order?</strong></p>
-          <p>💬 WhatsApp Support: <a href="https://wa.me/919919853648">+91 99198 53648</a></p>
-          <p>📞 Call Us: <a href="tel:+919919853648">+91 99198 53648</a></p>
+          <p>💬 WhatsApp Support: <a href="https://wa.me/919264933232">+91 92649 33232</a></p>
+          <p>📞 Call Us: <a href="tel:+919264933232">+91 92649 33232</a></p>
           <p>✉️ Mail Id: <a href="mailto:Utkarsh.221005@gmail.com">Utkarsh.221005@gmail.com</a></p>
           <p>📍 Store Address: Ghosi, Tehsil Ghosi, District Mau, Uttar Pradesh – 284128</p>
           <p>🕒 Support Hours: 7:00 AM – 9:00 PM (Every Day)</p>
