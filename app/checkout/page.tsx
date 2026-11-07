@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useCart } from "@/lib/CartContext";
-import { isServiceablePincode } from "@/lib/delivery";
+import { getDistanceFromStoreKm, isServiceablePincode } from "@/lib/delivery";
 import { checkCartMinWeightViolations } from "@/lib/weightHelper";
 import { MINIMUM_ORDER_VALUE } from "@/lib/shop";
 
@@ -36,6 +36,8 @@ export default function CheckoutPage() {
   const [isStoreClosed, setIsStoreClosed] = useState(false);
   const [addressStorageReady, setAddressStorageReady] = useState(false);
   const [hasSavedAddress, setHasSavedAddress] = useState(false);
+  const [isDetectingAddress, setIsDetectingAddress] = useState(false);
+  const [addressDetectionMessage, setAddressDetectionMessage] = useState("");
 
   useEffect(() => {
     fetch("/api/settings")
@@ -84,6 +86,46 @@ export default function CheckoutPage() {
     setLandmark("");
     setPincode(pincodeInfo?.pincode || "");
     setHasSavedAddress(false);
+  };
+
+  const detectDeliveryAddress = () => {
+    setAddressDetectionMessage("");
+    if (!navigator.geolocation) {
+      setAddressDetectionMessage("Is device par location detection available nahi hai. Address manually type karein.");
+      return;
+    }
+
+    setIsDetectingAddress(true);
+    navigator.geolocation.getCurrentPosition(
+      async ({ coords }) => {
+        const distanceKm = getDistanceFromStoreKm(coords.latitude, coords.longitude);
+        if (distanceKm > 2) {
+          setIsDetectingAddress(false);
+          setAddressDetectionMessage(`Yeh location shop se lagbhag ${distanceKm.toFixed(1)} km door hai. Delivery ke liye shop ke 2 km andar ka address select karein.`);
+          return;
+        }
+
+        try {
+          const response = await fetch(`/api/reverse-geocode?lat=${encodeURIComponent(coords.latitude)}&lon=${encodeURIComponent(coords.longitude)}`);
+          const data = await response.json();
+          if (!response.ok || !data.success) throw new Error(data.error || "Address not found");
+          setStreetAddress(data.address);
+          if (!landmark && data.landmark) setLandmark(data.landmark);
+          setAddressDetectionMessage("Address detect ho gaya. House number, gali aur landmark check karke zaroor edit/confirm karein.");
+        } catch {
+          setAddressDetectionMessage("Location mil gayi, lekin address text nahi mil paaya. Kripya address manually type karein.");
+        } finally {
+          setIsDetectingAddress(false);
+        }
+      },
+      (error) => {
+        setIsDetectingAddress(false);
+        setAddressDetectionMessage(error.code === error.PERMISSION_DENIED
+          ? "Location permission off hai. Browser settings mein location allow karke dobara try karein."
+          : "Current location nahi mil paayi. GPS on karke dobara try karein ya address manually type karein.");
+      },
+      { enableHighAccuracy: true, timeout: 15000, maximumAge: 60000 },
+    );
   };
 
   const minWeightViolations = checkCartMinWeightViolations(cart);
@@ -312,17 +354,22 @@ export default function CheckoutPage() {
             </div>
 
             <div>
-              <label className="block text-xs font-semibold text-neutral-300 mb-1">
-                Complete Delivery Address (House / Flat / Street) *
-              </label>
+              <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
+                <label className="block text-xs font-semibold text-neutral-300">Complete Delivery Address (House / Flat / Street) *</label>
+                <button type="button" onClick={detectDeliveryAddress} disabled={isDetectingAddress} className="rounded-lg border border-[#DAAE3C]/50 bg-[#DAAE3C]/10 px-3 py-2 text-[11px] font-black text-[#FBF0A6] transition hover:bg-[#DAAE3C] hover:text-black disabled:cursor-wait disabled:opacity-60">
+                  {isDetectingAddress ? "⌖ Detecting..." : "⌖ Detect My Address"}
+                </button>
+              </div>
               <textarea
-                rows={2}
+                rows={3}
                 placeholder="House No., Apartment name, Street / Ward, Locality"
                 value={streetAddress}
                 onChange={(e) => setStreetAddress(e.target.value)}
                 className="w-full bg-[#0A0D12] border border-[#2B3447] focus:border-[#DAAE3C] rounded-xl px-3.5 py-2 text-xs text-white focus:outline-none"
                 required
               />
+              {addressDetectionMessage && <p role="status" className={`mt-2 rounded-lg border px-3 py-2 text-[11px] leading-5 ${addressDetectionMessage.startsWith("Address detect") ? "border-emerald-500/30 bg-emerald-500/10 text-emerald-200" : "border-amber-500/30 bg-amber-500/10 text-amber-200"}`}>{addressDetectionMessage}</p>}
+              <p className="mt-2 text-[11px] leading-5 text-neutral-500">Detected address editable hai—delivery se pehle house number, gali/locality aur landmark proper check karein. Address data © OpenStreetMap contributors.</p>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
