@@ -19,12 +19,20 @@ export const isServiceablePincode = (pincode: string) => {
   return Boolean(SERVICEABLE_PINCODES[pin]);
 };
 
-export function isWithinDeliveryRadius(latitude: number, longitude: number) {
-  const ghosiStore = { latitude: 26.105, longitude: 83.539 };
+export const GHOSI_STORE_LOCATION = {
+  latitude: 26.1136875,
+  longitude: 83.5450625,
+};
+
+export function getDistanceFromStoreKm(latitude: number, longitude: number) {
   const toRadians = (value: number) => (value * Math.PI) / 180;
   const earthRadiusKm = 6371;
-  const latitudeDelta = toRadians(latitude - ghosiStore.latitude);
-  const longitudeDelta = toRadians(longitude - ghosiStore.longitude);
-  const a = Math.sin(latitudeDelta / 2) ** 2 + Math.cos(toRadians(ghosiStore.latitude)) * Math.cos(toRadians(latitude)) * Math.sin(longitudeDelta / 2) ** 2;
-  return earthRadiusKm * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a)) <= 2;
+  const latitudeDelta = toRadians(latitude - GHOSI_STORE_LOCATION.latitude);
+  const longitudeDelta = toRadians(longitude - GHOSI_STORE_LOCATION.longitude);
+  const a = Math.sin(latitudeDelta / 2) ** 2 + Math.cos(toRadians(GHOSI_STORE_LOCATION.latitude)) * Math.cos(toRadians(latitude)) * Math.sin(longitudeDelta / 2) ** 2;
+  return earthRadiusKm * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+export function isWithinDeliveryRadius(latitude: number, longitude: number) {
+  return getDistanceFromStoreKm(latitude, longitude) <= 2;
 }
