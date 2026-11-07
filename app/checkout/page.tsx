@@ -8,6 +8,16 @@ import { isServiceablePincode } from "@/lib/delivery";
 import { checkCartMinWeightViolations } from "@/lib/weightHelper";
 import { MINIMUM_ORDER_VALUE } from "@/lib/shop";
 
+const SAVED_ADDRESS_KEY = "vindhyavaisini_saved_address";
+
+type SavedAddress = {
+  customerName: string;
+  mobileNumber: string;
+  streetAddress: string;
+  landmark: string;
+  pincode: string;
+};
+
 export default function CheckoutPage() {
   const router = useRouter();
   const { cart, itemsPrice, deliveryFee, discount, couponCode, finalTotal, clearCart, pincodeInfo, verifyPincode } = useCart();
@@ -24,6 +34,8 @@ export default function CheckoutPage() {
   const [paymentFailed, setPaymentFailed] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
   const [isStoreClosed, setIsStoreClosed] = useState(false);
+  const [addressStorageReady, setAddressStorageReady] = useState(false);
+  const [hasSavedAddress, setHasSavedAddress] = useState(false);
 
   useEffect(() => {
     fetch("/api/settings")
@@ -35,6 +47,44 @@ export default function CheckoutPage() {
       })
       .catch(() => {});
   }, []);
+
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem(SAVED_ADDRESS_KEY);
+      if (saved) {
+        const address = JSON.parse(saved) as Partial<SavedAddress>;
+        setCustomerName(address.customerName || "");
+        setMobileNumber(address.mobileNumber || "");
+        setStreetAddress(address.streetAddress || "");
+        setLandmark(address.landmark || "");
+        setPincode(address.pincode || pincodeInfo?.pincode || "");
+        setHasSavedAddress(Boolean(address.streetAddress));
+      }
+    } catch {
+      localStorage.removeItem(SAVED_ADDRESS_KEY);
+    } finally {
+      setAddressStorageReady(true);
+    }
+  }, [pincodeInfo?.pincode]);
+
+  useEffect(() => {
+    if (!addressStorageReady) return;
+    const isComplete = customerName.trim() && mobileNumber.length === 10 && streetAddress.trim() && pincode.length === 6;
+    if (!isComplete) return;
+    const address: SavedAddress = { customerName: customerName.trim(), mobileNumber, streetAddress: streetAddress.trim(), landmark: landmark.trim(), pincode };
+    localStorage.setItem(SAVED_ADDRESS_KEY, JSON.stringify(address));
+    setHasSavedAddress(true);
+  }, [addressStorageReady, customerName, mobileNumber, streetAddress, landmark, pincode]);
+
+  const clearSavedAddress = () => {
+    localStorage.removeItem(SAVED_ADDRESS_KEY);
+    setCustomerName("");
+    setMobileNumber("");
+    setStreetAddress("");
+    setLandmark("");
+    setPincode(pincodeInfo?.pincode || "");
+    setHasSavedAddress(false);
+  };
 
   const minWeightViolations = checkCartMinWeightViolations(cart);
   const hasWeightViolation = minWeightViolations.length > 0;
@@ -220,6 +270,13 @@ export default function CheckoutPage() {
               <h2 className="font-bold text-base text-white">Contact &amp; Delivery Address</h2>
             </div>
 
+            {hasSavedAddress && (
+              <div className="flex flex-col gap-2 rounded-xl border border-emerald-500/30 bg-emerald-500/10 px-4 py-3 sm:flex-row sm:items-center sm:justify-between">
+                <p className="text-xs leading-5 text-emerald-200"><strong className="block text-emerald-300">✓ Saved delivery address</strong>Yeh details is device par agle order mein automatically bhar jayengi.</p>
+                <button type="button" onClick={clearSavedAddress} className="shrink-0 text-left text-xs font-bold text-emerald-300 underline underline-offset-4 hover:text-white">Use a different address</button>
+              </div>
+            )}
+
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <div>
                 <label className="block text-xs font-semibold text-neutral-300 mb-1">
@@ -296,6 +353,7 @@ export default function CheckoutPage() {
                 />
               </div>
             </div>
+            <p className="text-[11px] leading-5 text-neutral-500">🔒 Complete address aur mobile is browser/device par save hote hain, taaki agle order mein dobara na bharna pade.</p>
           </div>
 
           {/* Step 2: Delivery Slot Selection */}
